@@ -44,6 +44,7 @@ public class MainActivity extends ActionBarActivity
      */
     private CharSequence mTitle;
     String[] drawerListViewItems;
+    Serie[] series;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,7 +147,7 @@ public class MainActivity extends ActionBarActivity
 
     private void printSeries(ArrayList<Serie> seriesList)
     {
-        Serie[] series = seriesList.toArray(new Serie[seriesList.size()]);
+        series = seriesList.toArray(new Serie[seriesList.size()]);
         ListView drawerListView = (ListView) findViewById(R.id.left_drawer);
         drawerListViewItems = new String[series.length];
         for (int i = 0; i < series.length; i++)
@@ -161,10 +162,25 @@ public class MainActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        try
+        {
+            Staffel[] staffelList = series[position].staffelList.toArray(new Staffel[series[position].staffelList.size()]);
+            String[] staffelTitel = new String[staffelList.length];
+            for (int i = 0; i < staffelList.length; i++) {
+                staffelTitel[i] = "Staffel " + staffelList[i].number;
+            }
+            ListView staffelListView = (ListView) findViewById(R.id.staffelList);
+            staffelListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, staffelTitel));
+        }
+        catch (Exception ex)
+        {
+            return;
+        }
+
+        /*FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                .commit();
+                .commit();*/
     }
 
     public void onSectionAttached(int number) {

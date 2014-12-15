@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HomeCast>
 	<serie name="Scrubs">
-		<staffel nr="1">
+		<staffel nr="5">
 			<episode nr="1" path="path1">
 			</episode>
             <episode nr="2" path="path2">
             </episode>
 		</staffel>
-        <staffel nr="2">
+        <staffel nr="9">
             <episode nr="1" path="2path1">
             </episode>
             <episode nr="2" path="2path2">
