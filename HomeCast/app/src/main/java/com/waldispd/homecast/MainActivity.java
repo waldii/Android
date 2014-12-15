@@ -2,6 +2,7 @@ package com.waldispd.homecast;
 
 import android.app.Activity;
 import android.content.res.XmlResourceParser;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -16,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -170,6 +172,14 @@ public class MainActivity extends ActionBarActivity
                 staffelTitel[i] = "Staffel " + staffelList[i].number;
             }
             ListView staffelListView = (ListView) findViewById(R.id.staffelList);
+            staffelListView.setOnItemClickListener(new AdapterView.OnItemClickListener()
+            {
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+
+                    LoadStaffel(position);
+                }
+            });
             staffelListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, staffelTitel));
         }
         catch (Exception ex)
@@ -181,6 +191,12 @@ public class MainActivity extends ActionBarActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();*/
+    }
+
+    private void LoadStaffel(int pos)
+    {
+        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(pos), Toast.LENGTH_SHORT);
+        toast.show();
     }
 
     public void onSectionAttached(int number) {
