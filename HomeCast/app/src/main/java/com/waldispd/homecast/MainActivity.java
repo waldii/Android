@@ -2,6 +2,7 @@ package com.waldispd.homecast;
 
 import android.app.Activity;
 import android.content.res.XmlResourceParser;
+import android.os.StrictMode;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
@@ -88,11 +89,13 @@ public class MainActivity extends ActionBarActivity
     {
         try
         {
-            String user = "test:password";
+            StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
+            StrictMode.setThreadPolicy(tp);
+            String user = "user:password";
             NtlmPasswordAuthentication auth = new NtlmPasswordAuthentication(user);
-            String path = "smb://192.168.1.115/j$/Serien/serien.xml";
+            String path = "smb://192.168.1.115/Serien/serien.xml"; //192.168.1.115
             SmbFile sFile = new SmbFile(path, auth);
-            SmbFileInputStream smbIS = new SmbFileInputStream(sFile);
+            InputStream smbIS = sFile.getInputStream();
 
             BufferedReader r = new BufferedReader(new InputStreamReader(smbIS));
             StringBuilder total = new StringBuilder();
@@ -112,7 +115,10 @@ public class MainActivity extends ActionBarActivity
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
         }
+        return null;
     }
 
     private void XmlParsing()
