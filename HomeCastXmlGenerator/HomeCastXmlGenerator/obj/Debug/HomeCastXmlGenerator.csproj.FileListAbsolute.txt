@@ -1,0 +1,9 @@
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\bin\Debug\HomeCastXmlGenerator.exe.config
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\bin\Debug\HomeCastXmlGenerator.exe
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\bin\Debug\HomeCastXmlGenerator.pdb
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.csprojResolveAssemblyReference.cache
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.FormMain.resources
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.Properties.Resources.resources
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.csproj.GenerateResource.Cache
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.exe
+J:\Work\Android\Android\HomeCastXmlGenerator\HomeCastXmlGenerator\obj\Debug\HomeCastXmlGenerator.pdb

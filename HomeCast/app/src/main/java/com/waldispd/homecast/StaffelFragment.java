@@ -14,7 +14,6 @@ import android.widget.ListView;
  */
 public class StaffelFragment extends Fragment
 {
-    public View mView;
     public Serie mSerie;
     public MainActivity mActivity;
 
@@ -28,9 +27,8 @@ public class StaffelFragment extends Fragment
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_staffel, container, false);
-        mView = view;
 
-        Staffel[] staffelList = mSerie.staffelList.toArray(new Staffel[mSerie.staffelList.size()]);
+        final Staffel[] staffelList = mSerie.staffelList.toArray(new Staffel[mSerie.staffelList.size()]);
         String[] staffelTitel = new String[staffelList.length];
         for (int i = 0; i < staffelList.length; i++) {
             staffelTitel[i] = "Staffel " + staffelList[i].number;
@@ -41,7 +39,7 @@ public class StaffelFragment extends Fragment
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3)
             {
-                int b = 1 + 2;
+                mActivity.LoadEpisodeFragment(staffelList[position]);
             }
         });
         staffelListView.setAdapter(new ArrayAdapter<String>(mActivity, R.layout.drawer_listview_item, staffelTitel));

@@ -1,0 +1,1329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HomeCast>
+	<serie name="American Dad">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E01 - Pilot.avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E02 - Radikale Maßnahmen.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E03 - Vatersorgen.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E04 - Liebe auf den zweiten Blick.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E05 - Roger auf Tour.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E06 - Heimatschutz.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E07 - Stans Wille geschehe.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E08 - Beförderung mit Hindernissen.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E09 - Selbst ist der Mann.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E10 - Alles über Steve.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E11 - Zwielichtiges Erbe.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E13 - Stan von Arabien, Teil 2.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E14 - Stan im Waffen-Wunderland.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E15 - Starallüren.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E16 - Der Ladybugs-Club.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E17 - Wer ist hier der Boss.avi" />
+			<episode nr="17" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E18 - Der kleine Muffin-Laden.avi" />
+			<episode nr="18" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E19 - Stan, der Ballkönig.avi" />
+			<episode nr="19" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E20 - Freundschaft verbindet.avi" />
+			<episode nr="20" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E21 - Busenfreunde.avi" />
+			<episode nr="21" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E22 - Der neue Sohn.avi" />
+			<episode nr="22" path="J:\Serien\American Dad\Staffel 1\American Dad - S01E23 - Clooneys Tränen.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E01 - Camp Refoogee.avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E02 - Eine Frage des Gewichts.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E03 - Die harte Tour.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E04 - Hauptsache Republikaner.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E05 - Aufbruch in neue Welten.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E06 - Iced, Iced Babies.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E07 - Die Braut für alle Fälle.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E08 - In Sachen Steve.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E09 - Zurück zu Weihnachten.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E10 - Mein Freund Bush.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E11 - Illegale Zaubärhaftis.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E12 - Roger, mein außerirdischer Freund.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E13 - Das Vermächtnis der geheimen Erdnussbutter.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E14 - Thermonukleare Angriffsübung für Blödköpfe.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E15 - Vier kleine Worte.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E16 - When a Stan Loves a Woman.avi" />
+			<episode nr="17" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E17 - Lass die Leute reden.avi" />
+			<episode nr="18" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E18 - Der glorreiche Steven.avi" />
+			<episode nr="19" path="J:\Serien\American Dad\Staffel 2\American Dad - S02E19 - Viel Rauch um Nichts.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E01 - Schleim verbindet.avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E02 - Politessen an die Macht.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E03 - Die Magie Gottes.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E04 - Meine Frau, ihre Chinaeltern und ich.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E05 - Haylias - Die Agentin.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E06 - Jungfrau (42), männlich, killt.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E07 - Schwule Schwangerschaft.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E08 - Himmlische Weihnachten.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E09 - Von Natur aus böse.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E10 - Ein Quantum Tränen.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E11 - Die Eine oder keine.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E12 - Mord ist mein Geschäft.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E13 - Kalter Krieg am Gartenzaun.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E14 - Alien Undercover.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E15 - Indiana Smith Auf der Suche nach Ollis Gold.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 3\American Dad - S03E16 - Spring Break Wahnsinn.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E01 - 1600 Candles.avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E02 - The One That Got Away.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E03 - One Little Word.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E04 - Choosy Wives Choose Smith.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E05 - Escape from Pearl Bailey.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E06 - Pulling Double Booty.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E07 - Phantom of the Telethon.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E08 - Chimdale.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E09 - Stan Time.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E10 - Family Affair.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E11 - Live and Let Fry.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E12 - Roy Rogers McFreely.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E13 - Jack’s Back.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E14 - Bar Mitzvah Shuffle.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E15 - Wife Insurance.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E16 - Delorean Story-an.avi" />
+			<episode nr="17" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E17 - Every Which Way But Lose.avi" />
+			<episode nr="18" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E18 - Weiner of Our Discontent.avi" />
+			<episode nr="19" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E19 - Daddy Queerest.avi" />
+			<episode nr="20" path="J:\Serien\American Dad\Staffel 4\American Dad - S04E20 - Stan's Night Out.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E01 - In Country... Club.avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E02 - Moon over Isla Island.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E03 - Home Adrone.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E04 - Brains, Brains and Automobiles.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E05 - Man in the Moonbounce.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E06 - Shallow Vows.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E07 - My Morning Straitjacket.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E08 - G-String Circus.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E09 - Rapture's Delight.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E10 - Don't look a Smith Horse in the Mouth.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E11 - A Jones for a Smith.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E12 - May the best Stan win.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E13 - Return of the Bling.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E14 - Cops and Roger.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E15 - Merlot Down Dirty Shame.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E16 - Bully for Steve.avi" />
+			<episode nr="17" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E17 - An Incident at Owl Creek.avi" />
+			<episode nr="18" path="J:\Serien\American Dad\Staffel 5\American Dad - S05E18 - Great Space Roaster.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E01 - 100 A.D..avi" />
+			<episode nr="2" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E02 - Son of Stan.avi" />
+			<episode nr="3" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E03 - Best Little Horror House in Langley Falls.avi" />
+			<episode nr="4" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E04 - Stan’s Food Restaurant.avi" />
+			<episode nr="5" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E05 - White Rice.avi" />
+			<episode nr="6" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E06 - There Will Be Bad Blood.avi" />
+			<episode nr="7" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E07 - The People vs. Martin Sugar.avi" />
+			<episode nr="8" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E08 - For Whom The Sleigh Bell Tolls.avi" />
+			<episode nr="9" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E09 - Fart-Break Hotel.avi" />
+			<episode nr="10" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E10 - Stanny Boy And Frantastic.avi" />
+			<episode nr="11" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E11 - A Piñata Named Desire.avi" />
+			<episode nr="12" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E12 - You Debt Your Life.avi" />
+			<episode nr="13" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E13 - I Am The Walrus.avi" />
+			<episode nr="14" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E14 - School Lies.avi" />
+			<episode nr="15" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E15 - License to Till.avi" />
+			<episode nr="16" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E16 - Jenny Fromdabloc.avi" />
+			<episode nr="17" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E17 - Home Wrecker.avi" />
+			<episode nr="18" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E18 - Flirting With Disaster.avi" />
+			<episode nr="19" path="J:\Serien\American Dad\Staffel 6\American Dad - S06E19 - Gorillas in the Mist.avi" />
+		</staffel>
+	</serie>
+	<serie name="Family Guy">
+		<staffel nr="0">
+			<episode nr="1" path="J:\Serien\Family Guy\sonstiges\FGSIDL.03.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\sonstiges\FGSIDL.06.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\sonstiges\FGSIDL.07.avi" />
+		</staffel>
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E01 - Der großzügige Wohlfahrtsscheck.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E02 - Der verhängnissvolle Autounfall.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E03 - Stewies erster Geburtstag.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E04 - Die Zeitmaschine.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E05 - Der Held von nebenan.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E06 - Nie mehr Pfadfinder.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 1\Family Guy - S01E07 - Das Leben des Brian.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E01 - Stinkreich.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E02 - Heiliger Bimbam.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E03 - Der letzte Knall.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E04 - Hundeliebe.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E05 - Kohle ohne Ende.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E06 - Der Sensenmann.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E07 - Der König ist tot.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E08 - Die Frau in Peter.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E09 - Todgesund.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E10 - Die Schlammschlacht.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E11 - Knallbunt.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E12 - Helden auf Sendung.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E13 - Friede sei mit dir.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E14 - Peters dritter Frühling.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E15 - Stewie macht ernst.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E16 - Mord ohne Auftrag.avi" />
+			<episode nr="17" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E17 - Club der Schönen.avi" />
+			<episode nr="18" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E18 - Petoria.avi" />
+			<episode nr="19" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E19 - Schlagzeilen.avi" />
+			<episode nr="20" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E20 - Im Rausch der Musik.avi" />
+			<episode nr="21" path="J:\Serien\Family Guy\Staffel 2\Family Guy - S02E21 - Der Leihvater.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E01 - Der schmale weiße Grat.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E02 - Brian geht nach Hollywood.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E03 - Mr. Griffin geht nach Washington.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E04 - Die Briten kommen.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E05 - Und den größten hat....avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E06 - Der Tod lebt.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E07 - Lois, die Kampfmaschine.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E08 - Wenn Frauen küssen müssen.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E09 - Der schwarze Ritter.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E10 - Der dicke Mann und das Meer.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E11 - Zeugung verhindert.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E12 - Lieben und sterben in Dixie.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E13 - Scharfe Köter.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E14 - Der schwarze Peter.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E15 - Die Joe Swanson Story.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E16 - Ein besonders missglücktes Weihnachten.avi" />
+			<episode nr="17" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E17 - Das Schwalbennest.avi" />
+			<episode nr="18" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E18 - Nackt durchs Leben.avi" />
+			<episode nr="19" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E19 - Eifersucht und Superkleber.avi" />
+			<episode nr="20" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E20 - Stewie, Brian und die Welt.avi" />
+			<episode nr="21" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E21 - Family Guy Fanpost.avi" />
+			<episode nr="22" path="J:\Serien\Family Guy\Staffel 3\Family Guy - S03E22 - Ein Davidstern am Himmel.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 4\9.txt" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E01 - Die Passion Griffin.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E02 - Liebe  deine Lehrer.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E03 - Blinder Eifer.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E04 - Die Familienband.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E05 - Drei sind einer zu viel.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E06 - Das zurückgebliebene Genie.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E07 - Brian der Bachelor.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E08 - Tochter günstig abzugeben.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E09 - Diebesglück.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E10 - Mom ist ein Model.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E11 - Peter und James Woods.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E12 - Robinson Griffin.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E13 - Dschungelliebe.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E14 - PTV.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E15 - Brian auf der Uni.avi" />
+			<episode nr="17" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E16 - Vater und Sohn.avi" />
+			<episode nr="18" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E17 - Der Fettwanst-Würger.avi" />
+			<episode nr="19" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E18 - Die Kirche des Fonz.avi" />
+			<episode nr="20" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E19 - Brian singt und schwingt.avi" />
+			<episode nr="21" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E20 - Ein Sportlerschicksal.avi" />
+			<episode nr="22" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E21 - Quagmire heiratet.avi" />
+			<episode nr="23" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E22 - Die Fette in meinem Bett.avi" />
+			<episode nr="24" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E23 - Inspiration.avi" />
+			<episode nr="25" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E24 - Peterotika.avi" />
+			<episode nr="26" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E25 - Sie dürfen den Kerl jetzt küssen.avi" />
+			<episode nr="27" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E26 - Petergeist.avi" />
+			<episode nr="28" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E27 - Familiengeschichten.avi" />
+			<episode nr="29" path="J:\Serien\Family Guy\Staffel 4\Family Guy - S04E28-30 - Die unglaubliche Geschichte des Stewie Griffin.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E01.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E02 - Stiefsohn Peter.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E03 - Die Hölle kommt nach Quahog.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E04 - Der Soldat Brian Griffin.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E05 - Peter lässt arbeiten.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E06 - Was Sie noch nie über Sex wissen wollten.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E07 - Weiberkrebs.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E08 - Die Gesetzeshüter.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E09 - Jäger des verlorenen Rupert.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E10 - Peters zwei Väter.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E11 - Der Schwächere gibt nach.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E12 - Airport 07 oder Lizenz zum Fliegen.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E13 - Peter und Bill Clinton auf großer Fahrt.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E14 - Kein Essen auf Rädern.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E15 - Texorzismus.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E16 - Zweiter Bildungsweg für Chris.avi" />
+			<episode nr="17" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E17 - Im Rausch der Macht.avi" />
+			<episode nr="18" path="J:\Serien\Family Guy\Staffel 5\Family Guy - S05E18 - Gestatten Lois Quagmire.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E01 - Blue Harvest.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E02 - Brian zieht aus.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E04 - Stewie killt Lois.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E05 - Lois killt Stewie.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E08 - Schnurrbart und Schlaganfall.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E09 - Immer wieder Woods.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E10 - Spiel’s noch einmal, Brian.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E11 - Das frühere Leben des Brian.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 6\Family Guy - S06E12 - Long John Peter.avi" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E01 - Schwarze Liebe.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E02 - Alle lieben Jesus.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E03 - Reise ins Reich.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E04 - Baby nicht an Bord.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E05 - Der neue Brian.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E06 - Ein Mensch dritter Klasse.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E07 - Oceans dreieinhalb.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E08 - Family Gay.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E09 - Mördermäßig.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E10 - Ein Job für Lois.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E11 - Nicht alle Hunde kommen in den Himmel.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E12 - Kifferwahn.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E13 - Stew-Roide.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E14 - Hundeelend.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E15 - Dreimal King.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 7\Family Guy - S07E16 - Die Siedler von Quahog.avi" />
+		</staffel>
+		<staffel nr="8">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E01 Straße ins Multiversum.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E02 Family Goi.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E03 Spione, so aehnlich wie wir.avi" />
+			<episode nr="4" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E04 Brians alte Freundin.avi" />
+			<episode nr="5" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E06 Quagmires Baby.avi" />
+			<episode nr="6" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E07 Jerome ist der neue - Schwarze.avi" />
+			<episode nr="7" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E08 Da liegt der Hund begraben.avi" />
+			<episode nr="8" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E09 Die Firma.avi" />
+			<episode nr="9" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E10 Alles vergessen.avi" />
+			<episode nr="10" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E11 Knastbraut Meg.avi" />
+			<episode nr="11" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E12 XXL Medium.avi" />
+			<episode nr="12" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E13 Queen Stewie.avi" />
+			<episode nr="13" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E14 Peter-elle Belästigung.avi" />
+			<episode nr="14" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E15 Der Durchbruch.avi" />
+			<episode nr="15" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E16 April in Quahog.avi" />
+			<episode nr="16" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E17 Brian und Stewie.avi" />
+			<episode nr="17" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E18 Quagmires Dad.avi" />
+			<episode nr="18" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E19 Jäger des schmutzigen Witzes.avi" />
+			<episode nr="19" path="J:\Serien\Family Guy\Staffel 8\Family Guy - S08E20 - Irgendwo, Irgendwie, Irgendwann auf der dunklen Seite.avi" />
+		</staffel>
+		<staffel nr="9">
+			<episode nr="1" path="J:\Serien\Family Guy\Staffel 9\Family Guy - S09E01.avi" />
+			<episode nr="2" path="J:\Serien\Family Guy\Staffel 9\Family Guy - S09E02.avi" />
+			<episode nr="3" path="J:\Serien\Family Guy\Staffel 9\Family Guy - S09E03.avi" />
+		</staffel>
+	</serie>
+	<serie name="Futurama">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\Futurama\Staffel 1\01 Zeit und Raum 3000.avi" />
+			<episode nr="2" path="J:\Serien\Futurama\Staffel 1\02 Sein erster Flug zum Mond.avi" />
+			<episode nr="3" path="J:\Serien\Futurama\Staffel 1\03 Wohnungssuche in Neu-New York.avi" />
+			<episode nr="4" path="J:\Serien\Futurama\Staffel 1\04 Begegnung mit Zapp Brannigan.avi" />
+			<episode nr="5" path="J:\Serien\Futurama\Staffel 1\05 Planet der Roboter.avi" />
+			<episode nr="6" path="J:\Serien\Futurama\Staffel 1\06 Das Geheimnis der Anchovis.avi" />
+			<episode nr="7" path="J:\Serien\Futurama\Staffel 1\07 Die Galaxie des Terrors.avi" />
+			<episode nr="8" path="J:\Serien\Futurama\Staffel 1\08 Muell macht erfinderisch.avi" />
+			<episode nr="9" path="J:\Serien\Futurama\Staffel 1\09 Ein echtes Hoellenspektakel.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\Futurama\Staffel 2\01 Panik auf Raumschiff Titanic.avi" />
+			<episode nr="2" path="J:\Serien\Futurama\Staffel 2\02 Das Experiment der Mars-Universitaet.avi" />
+			<episode nr="3" path="J:\Serien\Futurama\Staffel 2\03 Wenn Ausserirdische angreifen.avi" />
+			<episode nr="4" path="J:\Serien\Futurama\Staffel 2\04 Die Party auf Slurm McKenzie.avi" />
+			<episode nr="5" path="J:\Serien\Futurama\Staffel 2\05 Gefuehls-Chip gefaellig.avi" />
+			<episode nr="6" path="J:\Serien\Futurama\Staffel 2\06 Brannigan, fang wieder an.avi" />
+			<episode nr="7" path="J:\Serien\Futurama\Staffel 2\07 Getrennt von Kopf und Koerper.avi" />
+			<episode nr="8" path="J:\Serien\Futurama\Staffel 2\08 Xmas-Story.avi" />
+			<episode nr="9" path="J:\Serien\Futurama\Staffel 2\09 Das seltsame Verhalten geschlechtsreifer Krustentiere zur Paarungszeit.avi" />
+			<episode nr="10" path="J:\Serien\Futurama\Staffel 2\10 Valentinstag 3000.avi" />
+			<episode nr="11" path="J:\Serien\Futurama\Staffel 2\11 Die Wahl zur Miss Universum.avi" />
+			<episode nr="12" path="J:\Serien\Futurama\Staffel 2\12 Wie ein wilder Bender.avi" />
+			<episode nr="13" path="J:\Serien\Futurama\Staffel 2\13 Hochzeit auf Cyclopia.avi" />
+			<episode nr="14" path="J:\Serien\Futurama\Staffel 2\14 Die rhythmus-Rueckerstattung.avi" />
+			<episode nr="15" path="J:\Serien\Futurama\Staffel 2\15 Wie der Vater so der Klon.avi" />
+			<episode nr="16" path="J:\Serien\Futurama\Staffel 2\16 Tief im Sueden.avi" />
+			<episode nr="17" path="J:\Serien\Futurama\Staffel 2\17 Allein gegen die Roboter-Mafia.avi" />
+			<episode nr="18" path="J:\Serien\Futurama\Staffel 2\18 Kennen sie Popplers.avi" />
+			<episode nr="19" path="J:\Serien\Futurama\Staffel 2\19 Muttertag.avi" />
+			<episode nr="20" path="J:\Serien\Futurama\Staffel 2\20 Geschichten von Interesse Nr. 1.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\Futurama\Staffel 3\01 Dieses unheimliche Hupen.avi" />
+			<episode nr="2" path="J:\Serien\Futurama\Staffel 3\02 Krieg auf Spheron Eins.avi" />
+			<episode nr="3" path="J:\Serien\Futurama\Staffel 3\03 Die Frau, die aus der Kaelte kam.avi" />
+			<episode nr="4" path="J:\Serien\Futurama\Staffel 3\04 Im Reich der Parasiten.avi" />
+			<episode nr="5" path="J:\Serien\Futurama\Staffel 3\05 Amazonen machen Snu Snu.avi" />
+			<episode nr="6" path="J:\Serien\Futurama\Staffel 3\06 Bender bis ueber beide Ohren.avi" />
+			<episode nr="7" path="J:\Serien\Futurama\Staffel 3\07 Der Tag, an dem die Erde verdummte.avi" />
+			<episode nr="8" path="J:\Serien\Futurama\Staffel 3\08 Zoidberg geht nach Hollywood.avi" />
+			<episode nr="9" path="J:\Serien\Futurama\Staffel 3\09 Bender unter Pinguinen.avi" />
+			<episode nr="10" path="J:\Serien\Futurama\Staffel 3\10 Das Glueck des Philip J. Fry.avi" />
+			<episode nr="11" path="J:\Serien\Futurama\Staffel 3\11 In den Augen einer Waise.avi" />
+			<episode nr="12" path="J:\Serien\Futurama\Staffel 3\12 Roboter Roberto Bankraeuber.avi" />
+			<episode nr="13" path="J:\Serien\Futurama\Staffel 3\13 Bender auf Tour.avi" />
+			<episode nr="14" path="J:\Serien\Futurama\Staffel 3\14 Wie die Zeit vergeht.avi" />
+			<episode nr="15" path="J:\Serien\Futurama\Staffel 3\15 Date mit einem Roboter.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\Futurama\Staffel 4\01 Roswell gut Alles gut.avi" />
+			<episode nr="2" path="J:\Serien\Futurama\Staffel 4\02 Alle Jahre wieder.avi" />
+			<episode nr="3" path="J:\Serien\Futurama\Staffel 4\03 Geschichten von Interesse Nr. 2.avi" />
+			<episode nr="4" path="J:\Serien\Futurama\Staffel 4\04 Liebe und Raketen.avi" />
+			<episode nr="5" path="J:\Serien\Futurama\Staffel 4\05 Die Waise des Jahres.avi" />
+			<episode nr="6" path="J:\Serien\Futurama\Staffel 4\06 Vierzig Kaefer westwaerts.avi" />
+			<episode nr="7" path="J:\Serien\Futurama\Staffel 4\07 Der unvergessene Pharao.avi" />
+			<episode nr="8" path="J:\Serien\Futurama\Staffel 4\08 Der Goettliche Bender.avi" />
+			<episode nr="9" path="J:\Serien\Futurama\Staffel 4\09 Wer wird Millionaer.avi" />
+			<episode nr="10" path="J:\Serien\Futurama\Staffel 4\10 Eine Klasse fuer sich.avi" />
+			<episode nr="11" path="J:\Serien\Futurama\Staffel 4\11 Das Kochduell.avi" />
+			<episode nr="12" path="J:\Serien\Futurama\Staffel 4\12 Der Letze Trekki.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\Futurama\Staffel 5\01 Die stinkende Medaille der Umweltverschmutzung.avi" />
+			<episode nr="2" path="J:\Serien\Futurama\Staffel 5\02 Gebell aus der Steinzeit.avi" />
+			<episode nr="3" path="J:\Serien\Futurama\Staffel 5\03 Die Wurzel allen Uebels.avi" />
+			<episode nr="4" path="J:\Serien\Futurama\Staffel 5\04 Der Geschmack der Freiheit.avi" />
+			<episode nr="5" path="J:\Serien\Futurama\Staffel 5\05 Smizmarr oder der Tee des Lebens.avi" />
+			<episode nr="6" path="J:\Serien\Futurama\Staffel 5\06 Superhelden.avi" />
+			<episode nr="7" path="J:\Serien\Futurama\Staffel 5\07 Die Quelle des Alterns.avi" />
+			<episode nr="8" path="J:\Serien\Futurama\Staffel 5\08 Phillip J. Fry V.I.P..avi" />
+			<episode nr="9" path="J:\Serien\Futurama\Staffel 5\09 Der Stich.avi" />
+			<episode nr="10" path="J:\Serien\Futurama\Staffel 5\10 Die Farnsworth Parabox.avi" />
+			<episode nr="11" path="J:\Serien\Futurama\Staffel 5\11 Dreihundert dicke Dinger.avi" />
+			<episode nr="12" path="J:\Serien\Futurama\Staffel 5\12 Lustkrise auf Omicron Persei Acht.avi" />
+			<episode nr="13" path="J:\Serien\Futurama\Staffel 5\13 Coilette und Calculon Eine Liebesgeschichte.avi" />
+			<episode nr="14" path="J:\Serien\Futurama\Staffel 5\14 Absolut Fabelhaft.avi" />
+			<episode nr="15" path="J:\Serien\Futurama\Staffel 5\15 Wer ist hier cool.avi" />
+			<episode nr="16" path="J:\Serien\Futurama\Staffel 5\16 Die Haende des Teufels.avi" />
+		</staffel>
+	</serie>
+	<serie name="How I met your mother">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E01 - Verliebt, verlobt, versagt.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E02 - Die lila Giraffe.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E03 - Frauen, Flieger, Freiheit.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E04 - Gutes altes Hemd.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E05 - Von Tänzern und Tauben.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E06 - Die Kürbis-Schlampe.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E07 - Kakerlake liebt Maus.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E08 - Das Duell.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E09 - Wohltaten und Untaten.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E10 - Der Ananas-Vorfall.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E11 - Silvesterlaune.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E12 - Hochzeitsgast plus eins.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E13 - Traum und Wirklichkeit.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E14 - Nur nichts überstürzen.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E15 - Spieleabend.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E16 - Maßgeschneidert.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E17 - Leben unter Gorillas.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E18 - Der Anständige.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E19 - Eine nette Nutte.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E20 - Nur zwei Monate.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E21 - Das Super-Date.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 1\How I Met Your Mother - S01E22 - Letzter Versuch.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E01 - Das große Baby.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E02 - Neues Leben alte Fehler.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E03 - Brunch.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E04 - Ted Mosbey Architekt.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E05 - Das ideale Paar.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E06 - Auf Safari.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E07 - Swarley.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E08 - Atlantic City.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E09 - Schlag auf Schlag.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E10 - Im Pärchen Koma.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E11 - Wie Lily Weihnachten gestohlen hat.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E12 - Erste Male.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E13 - Säulen der Menschheit.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E14 - Das Montagsspiel.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E15 - Wer den Penny ehrt.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E16 - Nur Theater.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E17 - Arrivederci, Fiero.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E18 - Der Abschlepp-Wagen.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E19 - Pikante Partys.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E20 - Showdown.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E21 - Hochzeit mit Harfe.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 2\How I Met Your Mother - S02E22 - Kinder oder Argentinien.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E01 - Der Adonis.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E02 - Wir sind nicht von hier.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E03 - Angst vorm Dreirad.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E04 - Kleine Jungs.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E05 - Irre Heiss.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E06 - Das bin ich nicht.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E07 - Spurensicherung.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E08 - Glück und Glas.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E09 - Klapsgiving.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E10 - Schweiss, Traenen und Heidi.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E11 - Die Platin-Regel.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E12 - Tue Boeses, ernte Gutes.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E13 - Ten Sessions.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E14 - Die Rächerin.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E15 - Die Kette des Anbrüllens.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E16 - Jugendliebe.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E17 - Die Ziege.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E18 - Der Lückenfüller.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E19 - Alles muss raus.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 3\How I Met Your Mother - S03E20 - Wunder über Wunder.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E01 - Kennen wir uns.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E02 - Der beste Burger in New York.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E03 - Ich liebe New Jersey.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E04 - Der alte Mann und drei Umzuege.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E05 - Unerwuenschte Gaeste.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E06 - Unter dem Tisch.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E07 - Der Nicht-Vatertag.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E08 - Woooo.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E09 - Nackter Mann.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E10 - Weicheier.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E11 - Im Exil.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E12 - Sex mit der Ex.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E13 - Drei Tage Schnee.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E14 - Die Taenzerhuefte.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E15 - Die Stinsons.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E16 - Hosenlos.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E17 - Der Veranda-Test.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E18 - Old King Clancy.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E19 - Die Murtaugh-Liste.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E20 - Mosbius Designs.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E21 - Die Dreitageregel.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E22 - Zur richtigen Zeit am richtigen Ort.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E23 - Hilfe wider Willen.avi" />
+			<episode nr="24" path="J:\Serien\How I met your mother\Staffel 4\How I Met Your Mother - S04E24 - Der Absprung.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E01 - Zuckerbrot und Peitsche.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E02 - Doppelgänger.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E03 - Der Robin-Grundkurs.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E04 - Der sexlose Gastgeber.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E05 - Der Koffein-Trip.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E06 - Das perfekte Paar.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E07 - Der Durchhänger.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E08 - Der Sporttaucher.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E09 - Klapsgiving 2 - Die Rache der Ohrfeige.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E10 - Das Fenster.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E11 - Die letzte Zigarette.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E12 - Anzug aus.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E13 - Jenkins.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E14 - Die perfekte Woche.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E15 - Ente oder Kaninchen.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E16 - Am Haken.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E17 - Sag einfach nein.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E18 - Bitte lächeln.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E19 - Zum Affen gemacht.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E20 - Heimvorteil.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E21 - Wie man sich bettet.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E22 - Roboter gegen Wrestler.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E23 - Ballast Stoff.avi" />
+			<episode nr="24" path="J:\Serien\How I met your mother\Staffel 5\How I Met Your Mother - S05E24 - Die Weisheit des Universums.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E01 - Meins.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E02 - Das große Aufräumen.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E03 - Unvollendet.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E04 - Jeder gegen jeden.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E05 - Der Architekt der Vernichtung.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E06 - Kinderkram.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E07 - Wir kuemmern uns.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E08 - Der Captain.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E09 - Glitter.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E10 - Blitzgiving.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E11 - Die Meerjungfrauentheorie.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E12 - Positiv Denken.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E13 - Schlechte Nachrichten.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E14 - Letzte Worte.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E15 - Oh Honey.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E16 - Der Verzweifelungstag.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E17 - Die Müllinsel.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E18 - Sinneswandel.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E19 - Legen Dad.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E20 - Der Rachefeldzug.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E21 - Der Magier.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E22 - Der ideale Drink.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E23 - Denkmal.avi" />
+			<episode nr="24" path="J:\Serien\How I met your mother\Staffel 6\How I Met Your Mother - S06E24 - Neu ist immer besser.avi" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E01 - Der Trauzeuge.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E02 - Die nackte Wahrheit.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E03 - Die Entchenkrawatte.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E04 - Die Stinson-Krise.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E05 - Die Exkursion.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E06 - Das dunkle Geheimnis.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E07 - Noretta.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E08 - Die Kürbis-Schlampe kehrt zurück.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E09 - Katastrophenschutz.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E10 - Tick Tick Tick ….avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E11 - Plan B.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E12 - Symphonie der Erleuchtung.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E13 - Gutes neues Jahr.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E14 - 46 Minuten.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E15 - Der brennende Bienenzüchter.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E16 - Der Saufzug.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E17 - Langzeitwetten.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E18 - Karma.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E19 - Der Bro-Eid.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E20 - Die Trilogie.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E21 - Punktsieg.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E22 - Die Ersatz-Robin.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 7\How I Met Your Mother - S07E23E24 - Der Magier-Kodex.avi" />
+		</staffel>
+		<staffel nr="8">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e01-xvid.avi" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e02-xvid.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e03-xvid.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e04-xvid.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e05-xvid.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e06-xvid.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e07-xvid.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e08-xvid.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e09-xvid.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e10-xvid.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e11-xvid.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e12-xvid.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e13-xvid.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e14-xvid.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e15-xvid.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e16-xvid.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e17-xvid.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e18-xvid.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e19-xvid.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e20-xvid.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e21-xvid.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e22-xvid.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e23-xvid.avi" />
+			<episode nr="24" path="J:\Serien\How I met your mother\Staffel 8\tvp-himym-s08e24-xvid.avi" />
+		</staffel>
+		<staffel nr="9">
+			<episode nr="1" path="J:\Serien\How I met your mother\Staffel 9\11.txt" />
+			<episode nr="2" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E01-XviD.avi" />
+			<episode nr="3" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E02-XviD.avi" />
+			<episode nr="4" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E03-XviD.avi" />
+			<episode nr="5" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E04-XviD.avi" />
+			<episode nr="6" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E05-XviD.avi" />
+			<episode nr="7" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E06-XviD.avi" />
+			<episode nr="8" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E07-XviD.avi" />
+			<episode nr="9" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E08-XviD.avi" />
+			<episode nr="10" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E09-XviD.avi" />
+			<episode nr="11" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E10-XviD.avi" />
+			<episode nr="12" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E11-XviD.avi" />
+			<episode nr="13" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E12-XviD.avi" />
+			<episode nr="14" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E13-XviD.avi" />
+			<episode nr="15" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E14-XviD.avi" />
+			<episode nr="16" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E15-XviD.avi" />
+			<episode nr="17" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E16-XviD.avi" />
+			<episode nr="18" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E17-XviD.avi" />
+			<episode nr="19" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E18-XviD.avi" />
+			<episode nr="20" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E19-XviD.avi" />
+			<episode nr="21" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E20-XviD.avi" />
+			<episode nr="22" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E21-XviD.avi" />
+			<episode nr="23" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E22-XviD.avi" />
+			<episode nr="24" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E23-XviD.avi" />
+			<episode nr="25" path="J:\Serien\How I met your mother\Staffel 9\HQSD-HIMYM.S09E24-XviD.avi" />
+		</staffel>
+	</serie>
+	<serie name="Pastewka">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e01-DerUnfall.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e02-DerPersonalausweis.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e03-DerBesuch.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e04-DerKinoabend.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e05-DerMietvertrag.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e06-DerFlohmarkt.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e07-DiePreisverleihung.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 1\Pastewka-s01e08-DerTest.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e01.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e02.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e03.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e04.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e05.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e06.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e07.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e08.avi" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 2\pastewkadxvid-s02e09.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e01.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e02.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e03.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e04.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e05.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e06.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e07.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e08.avi" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 3\pastewkadxvid-s03e09.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e01.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e02.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e03.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e04.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e05.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e06.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e07.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e08.avi" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 4\pastewkaxvid-s04e09.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e01.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e02-xvid.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e03-xvid.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e04-xvid.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e05-xvid.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e06-xvid.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e07-xvid.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e08-xvid.avi" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e09-xvid.avi" />
+			<episode nr="10" path="J:\Serien\Pastewka\Staffel 5\pastewka-s05e10-xvid.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e01-xvid.avi" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e02-xvid.avi" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e03-xvid.avi" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e04-xvid.avi" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e05-xvid.avi" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e06-xvid.avi" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e07-xvid.avi" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e08-xvid.avi" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e09-xvid.avi" />
+			<episode nr="10" path="J:\Serien\Pastewka\Staffel 6\g-pastewka.s06e10-xvid.avi" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\Pastewka\Staffel 7\9.txt" />
+			<episode nr="2" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e01.german.bdrip.x264-intention.mkv" />
+			<episode nr="3" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e02.german.bdrip.x264-intention.mkv" />
+			<episode nr="4" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e03.german.bdrip.x264-intention.mkv" />
+			<episode nr="5" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e04.german.bdrip.x264-intention.mkv" />
+			<episode nr="6" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e05.german.bdrip.x264-intention.mkv" />
+			<episode nr="7" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e06.german.bdrip.x264-intention.mkv" />
+			<episode nr="8" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e07.german.bdrip.x264-intention.mkv" />
+			<episode nr="9" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e08.german.bdrip.x264-intention.mkv" />
+			<episode nr="10" path="J:\Serien\Pastewka\Staffel 7\pastewka.s07e09.german.bdrip.x264-intention.mkv" />
+		</staffel>
+	</serie>
+	<serie name="Scrubs">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E01 - Mein erster Tag.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E02 - Mein Mentor.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E03 - Mein Kunstfehler.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E04 - Meine Lieblingspatientin.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E05 - Meine Vorbilder.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E06 - Mein Pech.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E07 - Mein Konkurrent.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E08 - Meine 15 Minuten als Held.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E09 - Mein freier Tag.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E10 - Mein Spitzname.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E11 - Mein Weihnachtswunder.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E12 - Mein Date aus der Röhre.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E13 - Meine zweite Chance.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E14 - Meine Alex.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E15 - Meine Beziehung.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E16 - Meine Melone.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E17 - Mein Student.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E18 - Mein schlimmster Fall.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E19 - Mein alter Herr.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E20 - Mein Freund der Chirurg.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E21 - Mein größtes Opfer.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E22 - Meine Zweifel.avi" />
+			<episode nr="23" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E23 - Mein Held.avi" />
+			<episode nr="24" path="J:\Serien\Scrubs\Staffel 1\Scrubs - S01E24 - Mein letzter Tag.avi" />
+			<episode nr="25" path="J:\Serien\Scrubs\Staffel 1\Thumbs.db" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E01 - Mein Rundumschlag.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E02 - Mein Nachtdienst.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E03 - Mein Ticket nach Reno.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E04 - Meine große Klappe.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E05 - Mein Kittel.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E06 - Mein grosser Bruder.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E07 - Mein erster Schritt.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E08 - Mein Pudding.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E09 - Mein Glückstag.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E10 - Mein Monster.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E11 - Meine Bettbeziehung.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E12 - Meine neue alte Freundin.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E13 - Meine Theorie.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E14 - Mein modernes Wissen.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E15 - Seine Geschichte.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E16 - Mein Karma.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E17 - Mein Coach.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E18 - Meine scharfe Koma-Braut.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E19 - Mein Größenwahn.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E20 - Meine Interpretation.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E21 - Meine Drama Queen.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 2\Scrubs - S02E22 - Mein Traumjob.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E01 - Mein drittes Jahr.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E02 - Meine neue Ära.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E03 - Mein Berater.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E04 - Mein Stolz.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E05 - Mein großer Fehler.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E06 - Mein Handtaschentrick.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E07 - Meine fünfzehn Sekunden.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E08 - Meine Kollegin.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E09 - Mein Verzicht.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E10 - Meine Regeln.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E11 - Mein sauberer Abgang.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E12 - Mein Katalysator.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E13 - Meine Offenbarung.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E14 - Meine Schuld.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E15 - Meine sexistischen Kollegen.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E16 - Mein Schmetterling.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E17 - Meine Freundin Carla.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E18 - Mein Freund Turk.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E19 - Meine schwierigste Wahl.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E20 - Mein Fehler.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E21 - Meine Selbstpruefung.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 3\Scrubs - S03E22 - Die Hochzeit meiner besten Freunde.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E01 - Meine Psychiaterin.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E02 - Meine Beförderung.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E03 - Meine Schmach.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E04 - Meine Begegnung mit dem Tod.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E05 - Ihre Geschichte.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E06 - Meine Trauer.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E07 - Mein hollywoodreifer Auftritt.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E08 - Meine einmalige Chance.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E09 - Mein Spiel mit dem Feuer.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E10 - Meine Hexe.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E11 - Mein Einhorn.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E12 - Mein bester Moment.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E13 - Mein Absturz.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E14 - Mein Partner.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E15 - Mein Eid.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E16 - Meine Lügen.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E17 - Meine Sitcom.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E18 - Meine Mitbewohner.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E19 - Mein Kuchen.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E20 - Mein Chef mal anders.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E21 - Meine Lippen sind versiegelt.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E22 - Meine Maßnahme.avi" />
+			<episode nr="23" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E23 - Mein Glaube an die Menschheit.avi" />
+			<episode nr="24" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E24 - Meine Kollegen, die Egozentriker.avi" />
+			<episode nr="25" path="J:\Serien\Scrubs\Staffel 4\Scrubs - S04E25 - Mein Schokobär.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E01 - Mein Aufstieg .avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E02 - Mein Sinn für Humor.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E03 - Mein Triathlon.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E04 - Meine Laudatio.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E05 - Mein neuer Gott.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E06 - Mein falscher Rückschluss.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E07 - Mein Weg nach Hause.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E08 - Mein Recht auf ein Dankeschön.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E09 - Mein kleiner Tollpatsch.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E10 - Meine Therapie.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E11 - Mein Kummer.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E12 - Mein Schützling.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E13 - Mein Leidensgenosse.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E14 - Mein Walkie Talkie.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E15 - Meine wunderschönen Haare.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E16 - Meine clevere Idee.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E17 - Mein Bleistift.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E18 - Meine Aufrichtigkeit.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E19 - Mein Freund der Hausmeister.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E20 - Mein Mittagessen mit Cox.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E21 - Mein gefallenes Idol.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E22 - Mein Deja Vu.avi" />
+			<episode nr="23" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E23 - Mein neuer Schwarm.avi" />
+			<episode nr="24" path="J:\Serien\Scrubs\Staffel 5\Scrubs - S05E24 - Mein perfektes Date.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E01 - Mein Spiegelbild.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E02 - Mein Baby und sein Baby.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E03 - Mein Kaffee.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E04 - Mein Dr. House.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E05 - Mein Neid.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E06 - Mein Musical.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E07 - Meine streitsuechtigen Kollegen.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E08 - Meine Spritztour.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E09 - Mein Durchhänger.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E10 - Meine Abmachung.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E11 - Meine Erinnerungen.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E12 - Mein Goldfischglas.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E13 - Meine neuen Klamotten.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E14 - Mein scharfes Kindermädchen.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E15 - Meine Patenschaft.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E16 - Mein tauber Patient.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E17 - Meine Nebendarsteller.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E18 - Meine Eifersucht.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E19 - Meine kalte Dusche.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E20 - Meine Reise nach Phoenix.avi" />
+			<episode nr="21" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E21 - Mein Kaninchen.avi" />
+			<episode nr="22" path="J:\Serien\Scrubs\Staffel 6\Scrubs - S06E22 - Meine Zukunft.avi" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 7\11.txt" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E01 - Mein voller Durchblick.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E02 - Meine schwere Geburt.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E03 - Mein Erwachsenwerden.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E04 - Meine Eselsbrücken.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E05 - Mein inneres Kind.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E06 - Meine Tabellenführung.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E07 - Meine Wasserbomben.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E08 - Mein Leben als Mann.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E09 - Meine Dusel-Diagnose.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E10 - Mein neuer Chef.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 7\Scrubs - S07E11 - Mein Märchen.avi" />
+		</staffel>
+		<staffel nr="8">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E01 - Meine Vollidioten.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E02 - Mein bester Fall.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E03 - Mein Polizeistaat.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E04 - Meine alte Flamme.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E05 - Meine Sesamstrasse.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E06 - Meine tolle Liebesnacht.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E07 - Meine neue Rolle.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E08 - Mein verliebter Anwalt.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E09 - Meine Handy-Stimme.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E10 - Mein Brusthaar.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E11 - Meine sprechenden Hände.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E12 - Meine Beliebtheit.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E13 - Mein Vollmond.avi" />
+			<episode nr="14" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E14 - Mein Bahamas, Teil1.avi" />
+			<episode nr="15" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E15 - Mein Bahamas, Teil2.avi" />
+			<episode nr="16" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E16 - Mein Chefchirurg.avi" />
+			<episode nr="17" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E17 - Meine 37 Minuten.avi" />
+			<episode nr="18" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E18 - Mein Finale, Teil 1.avi" />
+			<episode nr="19" path="J:\Serien\Scrubs\Staffel 8\Scrubs - S08E19 - Mein Finale, Teil 2.avi" />
+			<episode nr="20" path="J:\Serien\Scrubs\Staffel 8\Thumbs.db" />
+		</staffel>
+		<staffel nr="9">
+			<episode nr="1" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E01 - Unsere erste Vorlesung.avi" />
+			<episode nr="2" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E02 - Unser Trinkerfreund.avi" />
+			<episode nr="3" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E03 - Unsere Vorbilder.avi" />
+			<episode nr="4" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E04 - Unsere letzten Geschichten.avi" />
+			<episode nr="5" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E05 - Unsere Blutsauger.avi" />
+			<episode nr="6" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E06 - Unsere Besten.avi" />
+			<episode nr="7" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E07 - Unsere weißen Kittel.avi" />
+			<episode nr="8" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E08 - Unsere schrägen Paare.avi" />
+			<episode nr="9" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E09 - Unser Babymoon.avi" />
+			<episode nr="10" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E10 - Unser Spickzettel.avi" />
+			<episode nr="11" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E11 - Unsere Höllenwoche.avi" />
+			<episode nr="12" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E12 - Unsere Fahrkünste.avi" />
+			<episode nr="13" path="J:\Serien\Scrubs\Staffel 9\Scrubs - S09E13 - Unser Dankeschön.avi" />
+		</staffel>
+	</serie>
+	<serie name="The Big Bang Theory">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E01 - Penny und die Physiker.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E02 - Chaos-Theorie.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E03 - Erregungsfaktor Null.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E04 - Die Leuchtfisch-Idee.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E05 - Die andere Seite der Krawatte.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E06 - Das Mittelerde-Paradigma.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E07 - Das Vorspeisen-Dilemma.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E08 - Das Lalita-Problem.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E09 - Der Cooper-Hofstadter-Antagonismus.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E10 - Loobenfelds Netz der Lügen.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E11 - Alles fließt.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E12 - Das Jerusalem-Projekt.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E13 - Superbowl für Physiker.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E14 - Die Zeitmaschine.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E15 - Sheldon 2.0.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E16 - Die Erdnuss-Reaktion.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 1\The Big Bang Theory - S01E17 - Schrödingers Katze.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E01 - Milch mit Valium.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E02 - Sex mit der Erzfeindin.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E03 - Das Conan-Spiel.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E04 - Planet Bollywood.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E05 - Homo Novus Automobilis.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E06 - Das Cooper-Nowitzki-Theorem.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E07 - Dessous auf der Oberleitung.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E08 - Stein, Schere, Spock.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E09 - Unflotter Dreier.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E10 - Kleines Gefass mit Honig.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E11 - Die Geschenk-Hypothese.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E12 - Monte der Roboter.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E13 - Der Freundschafts-Algorithmus.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E14 - In der Kreditklemme.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E15 - Die Streichelmaschine.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E16 - Die Kissen-Katastrophe.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E17 - Das Placebo-Bier.avi" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E18 - Business im Wohnzimmer.avi" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E19 - Der Kampf der Bienenkoniginnen.avi" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E20 - Der Wolowitz-Koeffizient.avi" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E21 - Die Las-Vegas-Kur.avi" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E22 - Die Weltraumtoilette.avi" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 2\The Big Bang Theory - S02E23 - Drei Monate im Eis.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E01 - Der Nordpol-Plan.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E02 - Die Grillenwette.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E03 - Sex oder Pralinen.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E04 - Für ihn oder mit ihm.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E05 - Der Mann, der seine Omi liebte.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E06 - Football für Nerds.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E07 - Der Gitarrist auf der Couch.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E08 - Das Suppentattoo.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E09 - Die Racheformel.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E10 - Das Gorilla-Projekt.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E11 - Mädels an der Bar.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E12 - Howards Phasen.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E13 - Terror in der Östadt der Rosen.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E14 - Fast wie Einstein.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E15 - Freiflug nach Genf.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E16 - Sheldon pro se.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E17 - Die Herren des Rings.avi" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E18 - Die dunkle Seite des Mondes.avi" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E19 - Das L-Wort.avi" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E20 - Spaghetti mit Würstchen.avi" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E21 - Vierer ohne Sheldon.avi" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E22 - Die Wahrheit über den Fahrstuhl.avi" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 3\The Big Bang Theory - S03E23 - Nie mehr dumme Typen.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E01 - 31 Liebhaber, aufgerundet.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E02 - Der sicherste Ort der Welt.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E03 - Paradoxe Psychologie.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E04 - Und jetzt mit Zunge.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E05 - Der Gestank der Verzweifelung.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E06 - Finger weg von meiner Schwester.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E07 - Besuch vom FBI.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E08 - 21 Sekunden.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E09 - Der falsche richtige Freund.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E10 - Die animalische Amy.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E11 - Die peinliche Kuss.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E12 - Die Bushose.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E13 - Die neutrale Zone.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E14 - Ein Traum von Bollywood.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E15 - Der Mann der Stunde.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E16 - Ich bin nicht deine Mutter.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E17 - Das Juwel von Mumbai.avi" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E18 - Herz Zwei.avi" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E19 - Der Zarnecki Feldzug.avi" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E20 - Sags nicht weiter.avi" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E21 - Souvlaki statt Pizza.avi" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E22 - Die Antilope im Curry.avi" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E23 - Hochzeit und Herzinfakt.avi" />
+			<episode nr="24" path="J:\Serien\The Big Bang Theory\Staffel 4\The Big Bang Theory - S04E24 - Männertausch.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E01 - Der Schlampenreflex.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E02 - Der Seuchensessel.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E03 - Probewohnen bei Muttern.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E04 - Such dir eine Inderin.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E05 - Ab nach Baikonur.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E06 - Mamas Liebling.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E07 - Ein guter Kerl.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E08 - Leichtes Fummeln.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E09 - Zwei komische Vögel.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E10 - Die Beziehungsrahmenvereinbarung.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E11 - Das Speckerman Trauma.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E12 - Kinder  Nein danke!.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E13 - Penny und Leonard 2.0.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E14 - Spaß mit Flaggen.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E15 - Die Mitbewohnervereinbarung.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E16 - Die Urlaubsdiktatur.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E17 - Antisportler.avi" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E18 - Kuscheln mit dem Gürteltier.avi" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E19 - Wochenendkrieger.avi" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E20 - Traum mit Spock.avi" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E21 - Noch so ein Weichei.avi" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E22 - Sex auf der Waschmaschine.avi" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E23 - Falscher Ort, falsche Frage.avi" />
+			<episode nr="24" path="J:\Serien\The Big Bang Theory\Staffel 5\The Big Bang Theory - S05E24 - Fruchtzwerg fliegt ins All.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 6\19.txt" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e01.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e02.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e03.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e04.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e05.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e06.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e07.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e08.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e09.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e10.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e11.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 6\itg-tbbt-s06e12.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E13.Man.lernt.nie.aus.German.Dubbed.DL.iTunesHD.x264-TVS.mkv" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E14.Willkommen.in.der.Donnerkuppel.German.Dubbed.DL.iTunesHD.x264-TVS.mkv" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E15.Spoileralarm.German.Dubbed.DL.BD.x264-TVS.mkv" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E16.Der.Romantik.Ninja.German.Dubbed.DL.BD.x264-TVS.mkv" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E17.Keiner.ist.so.kaputt.wie.ich.German.Dubbed.DL.BD.x264-TVS.mkv" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E18.Prinzessinnen.der.Wissenschaft.German.Dubbed.DL.BD.x264-TVS.mkv" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 6\The.Big.Bang.Theory.S06E19.Ordnung.in.der.Abstellkammer.German.Dubbed.DL.BD.x264-TVS.mkv" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 6\tvs-tbbt-ded-dl-bd-x264-620.mkv" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 6\tvs-tbbt-ded-dl-bd-x264-621.mkv" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 6\tvs-tbbt-ded-dl-bd-x264-622.mkv" />
+			<episode nr="24" path="J:\Serien\The Big Bang Theory\Staffel 6\tvs-tbbt-ded-dl-bd-x264-623.mkv" />
+			<episode nr="25" path="J:\Serien\The Big Bang Theory\Staffel 6\tvs-tbbt-ded-dl-bd-x264-624.mkv" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E01-XviD.avi" />
+			<episode nr="2" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E02-XviD.avi" />
+			<episode nr="3" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E03-XviD.avi" />
+			<episode nr="4" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E04-XviD.avi" />
+			<episode nr="5" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E05-XviD.avi" />
+			<episode nr="6" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E06-XviD.avi" />
+			<episode nr="7" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E07-XviD.avi" />
+			<episode nr="8" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E08-XviD.avi" />
+			<episode nr="9" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E09-XviD.avi" />
+			<episode nr="10" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E10-XviD.avi" />
+			<episode nr="11" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E11-XviD.avi" />
+			<episode nr="12" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E12-XviD.avi" />
+			<episode nr="13" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E13-XviD.avi" />
+			<episode nr="14" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E14-XviD.avi" />
+			<episode nr="15" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E15-XviD.avi" />
+			<episode nr="16" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E16-XviD.avi" />
+			<episode nr="17" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E17-XviD.avi" />
+			<episode nr="18" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E18-XviD.avi" />
+			<episode nr="19" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E19-XviD.avi" />
+			<episode nr="20" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E20-XviD.avi" />
+			<episode nr="21" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E21-XviD.avi" />
+			<episode nr="22" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E22-XviD.avi" />
+			<episode nr="23" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E23-XviD.avi" />
+			<episode nr="24" path="J:\Serien\The Big Bang Theory\Staffel 7\HQSD-TBBT.S07E24-XviD.avi" />
+		</staffel>
+	</serie>
+	<serie name="Two and a half men">
+		<staffel nr="1">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E01 - Stur zwanghaft und unflexibel.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E02 - Der Sockengolf-Champion.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E03 - War das Beethoven.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E04 - Ich brauche Berta.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E05 - Der Mittwochs-Mann.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E06 - Gib dir keine Muehe Charlie.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E07 - Ich verstehe.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E08 - Die Industrielle-Revolutions-Show.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E09 - Phase Eins erfolgreich.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E10 - Der Truthahn und die Maennlichkeit.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E11 - Bereit fuer die Grossaufnahme.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E12 - Ich kuemmere mich um Prudence.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E13 - Im Bett mit Angina.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E14 - Ich kann mir keine Hyaenen leisten.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E15 - Wer kriegt die Verrueckte (1).avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E16 - Wer kriegt die Verrueckte (2).avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E17 - Hamburger und Muetzen.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E18 - Alte Flamme mit neuem Docht.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E19 - Die Garderobenfrau.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E20 - Ich kann im Dunkeln pinkeln.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E21 - Fragen sie ihren Bruder.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E22 - Wollmaeuse und Kuhpuppen.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E23 - Wie die Bueffel.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 1\Two and a Half Men - S01E24 - Spueren sie meinen Finger.avi" />
+		</staffel>
+		<staffel nr="10">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 10\20.txt" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e01.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e02.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e03.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e04.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e05.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e06.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e07.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e08.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e09.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e10.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e11.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e12.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e13.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e14.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e15.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e16.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e17.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e18.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e19.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e20.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e21.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e22.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 10\sof-two.and.a.half.men.s10e23.avi" />
+		</staffel>
+		<staffel nr="11">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 11\22.txt" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E01.Charlies.Tochter.German.Dubbed.HDTV.XviD.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E02.Buddha.lugt.aus.seinem.Tempel.German.Dubbed.HDTV.XviD.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E03.Pech.mit.der.Perle.German.AC3.Dubbed.WebHD.XviD.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E04.Strip.Poker.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E05.Alan.Harper.Frauenbegluecker.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E06.Wonder.Woman.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E07.Mein.erstes.mal.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E08.Mr.Walden.He.Die.I.Clean.Room.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E09.Hals.und.Beinbruch.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E10.Feuchtfroehliche.Weihnacht.German.Dubbed.WebHD.XviD.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E11.Ein.Eissandwich.im.Ofen.German.Dubbed.WebHDRip.XviD.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E12.Baseball.Busen.Busen.Baseball.German.Dubbed.WebHDRip.XviD.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E13.Tot.tot.Koma.Florida.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E14.Ein.ganzer.Kerl.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E15.Der.Resteverwerter.der.Liebe.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E16.Wie.man.Alan.Harper.los.wird.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E17.Willkommen.zuhause.Jake.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E18.West.Side.Story.German.Dubbed.WebHDRip.XviD.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E19.Darf.ich.aus.ihrem.Schlauch.trinken.German.Dubbed.WebHDRip.XviD.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E20.Therapie.am.Ozean.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E21.Wer.ist.Alan.Harper.German.Dubbed.HDTVRip.XviD.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 11\Two.and.a.Half.Men.S11E22.Mit.Waldi.in.die.Zukunft.German.Dubbed.WebHDRip.XviD.avi" />
+		</staffel>
+		<staffel nr="2">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E01 - Weiche von mir, Mary Poppins.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E02 - Ist das meine Hose.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E03 - Ich bin ein Schmetterling.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E04 - Her mit Mamis BH.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E05 - Ich muss früh raus.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E06 - Der böse Alan.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E07 - Ich bin eine Aztekenpriesterin.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E08 - Haben wir eine Trittleiter.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E09 - Ich kann gut mit Babys.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E10 - Der Lachs unter meiner Bluse.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E11 - Der Busch bin ich.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E12 - Eine Nase voll Alan.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E13 - Geh' von meinen Haaren runter.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E14 - Kein Truthahnhals für Oma.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E15 - Riech mal am Schirmständer.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E16 - Der vergessene Sohn.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E17 - Lass dir die Zitrone schmecken.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E18 - Pamela und Purzelchen.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E19 - Der Todestoast.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E20 - Ich wollte immer einen Nacktaffen.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E21 - Wo ist die Leiche, Sir.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E22 - Es ist kein Frauenauto.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E23 - Sushi und Ketchup.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 2\Two and a Half Men - S02E24 - Mein schönstes Wochenenderlebnis.avi" />
+		</staffel>
+		<staffel nr="3">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E01 - Vergiss den Techniker.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E02 - Donuts Im Stau.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E03 - Die tote Oma im Whirlpool.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E04 - Fragen Sie Einfach Mich.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E05 - Mr Pinky und Mr Pipi.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E06 - Oh Gehoernter.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E07 - Ich kann ihren Skrupel sehen.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E08 - Ich will tanzen.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E09 - Ein Witz mit Urknall.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E10 - Etwas Salziges mit Biss.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E11 - Santas Dorf der Verdammten.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E12 - Ein gewisses Ziehen.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E13 - Selbsterniedrigung ist ein visuelles Medium.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E14 - Liebe ist geisteskrank.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E15 - Meine Zunge ist aus Fleisch.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E16 - Was ist ein Quickie.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E17 - Der Jingle-Mufti.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E18 - Nieren wachsen schneller nach.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E19 - Meine Nichte sitzt im Knast.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E20 - Wie im Hamsterkäfig.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E21 - Unmusikalisch und arrogant.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E22 - Ein Mann braucht höhere Ziele.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E23 - Die Samenspende.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 3\Two and a Half Men - S03E24 - Zwei Hochzeiten und ein Lachanfall.avi" />
+		</staffel>
+		<staffel nr="4">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E01 - Ich arbeite für Caligula.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E02 - Wer ist Wod Katitten.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E03 - Die See ist eine harte Mutter.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E04 - Wo ist der blöde Hund.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E05 - Ein guter Schläfer.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E06 - Ödipus.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E07 - Wie Haare an feuchter Seife.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E08 - Lasst die Hunde los!.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E09 - Der alte Alan.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E10 - Leck nicht an deiner Haarbürste.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E11 - Entweihnacht.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E12 - Alan ist anders.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E13 - Superman und Dornröschen.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E14 - Man fängt nie mit Blähungen an.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E15 - Nadeln in den Ohren.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E16 - Auch junge Menschen sind mal verschleimt.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E17 - Tausche Rezept gegen Mutter.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E18 - Die frenetische Detektivin.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E19 - Judiths Haus der Verdammten.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E20 - Ich mach bei Hochzeiten immer das Gleiche.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E21 - Schwul ist cool.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E22 - Schweinchen Glück.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E23 - Vergiss Fernando.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 4\Two and a Half Men - S04E24 - Teddy ist unser Daddy.avi" />
+		</staffel>
+		<staffel nr="5">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E01 - Ziege bleibt Ziege.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E02 - Der Genius des Boesen.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E03 - Flibber-Flabber-Schlabber.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E04 - Eine Blondine mit Kaffee.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E05 - Die üblichen Nebenwirkungen.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E06 - Richterin des Jahres.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E07 - Die Schale des Anstosses.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E08 - Wer liebt die Kinder.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E09 - Eng ist gut.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E10 - Der Frauendieb.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E11 - Potpourri und Pfefferspray.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E12 - Die Elefantenpille.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E13 - Säen und ernten.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E14 - Ohne Mücken kein Beglücken.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E15 - Der Trauerarbeiter.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E16 - Gekühlte Schmetterlinge.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E17 - Eine Leiche zur Hochzeit.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E18 - Allein, inkontinent und ungeliebt.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 5\Two and a Half Men - S05E19 - Die Mutterfigur.avi" />
+		</staffel>
+		<staffel nr="6">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E01 - Das Wunschkind.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E02 - Ich hätte einen Affen nehmen sollen.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E03 - Rührei.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E04 - Knall und Fall.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E05 - Schuld und Sühne.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E06 - Der Herr im Haus.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E07 - Alles einsteigen.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E08 - Pinocchios Mund.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E09 - Mali Buh.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E10 - Der Schwachkopf kriegt ein Auto.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E11 - Ein Sarg ist keine Sonnenbank.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E12 - Sie können jederzeit rein.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E13 - Ponys und Einhörner.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E14 - Ein pedantischer, selbstgefälliger Musterknabe.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E15 - Fangen wir mit der Katze an.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E16 - Wohin mit Wanda.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E17 - Der Herr der Ringe.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E18 - Der Schwellkopf meines Sohnes.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E19 - Die Zwei-Finger-Regel.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E20 - Alan Cousteau.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E21 - Eine klebrige Beziehung.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E22 - Katzenklo.avi" />
+			<episode nr="23" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E23 - Der Bauchredner.avi" />
+			<episode nr="24" path="J:\Serien\Two and a half men\Staffel 6\Two and a Half Men - S06E24 - Plötzlich ein greller Blitz.avi" />
+		</staffel>
+		<staffel nr="7">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E01 - Oxofrmbl.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E02 - Stark und durchsetzungsfähig.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E03 - Hm, Fisch, den fress ich.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E04 - Hundeentwurmer, Pferdebesamer.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E05 - Der kleine Furzmeister.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E06 - Brustfrust.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E07 - Die reine Unbeschmutztheit.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E08 - Sabber, lechz, schmacht.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E09 - Die haarähnliche Substanz.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E10 - Eiertanz.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E11 - Fest der Liebe.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E12 - Furzwitze, Torte und Celeste.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E13 - Keine Polypen.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E14 - Der Familien-Rottweiler.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E15 - Charlies Engel.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E16 - Der Kirchenbesuch.avi" />
+			<episode nr="17" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E17 - Ich habe deinen Schnurrbart gefunden.avi" />
+			<episode nr="18" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E18 - Hopp, auf den Tisch.avi" />
+			<episode nr="19" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E19 - Superdad.avi" />
+			<episode nr="20" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E20 - Austern mit Erdbeeren.avi" />
+			<episode nr="21" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E21 - Die Standuhr.avi" />
+			<episode nr="22" path="J:\Serien\Two and a half men\Staffel 7\Two and a Half Men - S07E22 - Das wird kein gutes Ende nehmen.avi" />
+		</staffel>
+		<staffel nr="8">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E01 - Tubensahne.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E02 - Eine Flasche Wein und ein Presslufthammer.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E03 - Feuer und Flamme.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E04 - Nutten Nutten Nutten.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E05 - Die Mumie schlaegt zurueck.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E06 - Oberflaechlich eitel und seicht.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E07 - Verrückte Weiber.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E08 - Wolkenstürmer am Stiel.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E09 - Schöne Stunden in Zentralafrika.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E10 - Die japanische Regenbrille.avi" />
+			<episode nr="11" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E11 - Von der Hüfte abwärts tot.avi" />
+			<episode nr="12" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E12 - Der Mann ohne Freunde.avi" />
+			<episode nr="13" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E13 - Stinktier, Ketchup und Hundekacke.avi" />
+			<episode nr="14" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E14 - Der menschliche Vulkan.avi" />
+			<episode nr="15" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E15 - Still und Steif.avi" />
+			<episode nr="16" path="J:\Serien\Two and a half men\Staffel 8\Two and a Half Men - S08E16 - Dein Mann ist eine Puppe.avi" />
+		</staffel>
+		<staffel nr="9">
+			<episode nr="1" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E01 - Sehr erfreut, Walden Schmidt.avi" />
+			<episode nr="2" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E02 - Peter Pans Mutter.avi" />
+			<episode nr="3" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E03 - Herpes Junior.avi" />
+			<episode nr="4" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E04 - Neun-Finger-Daddy.avi" />
+			<episode nr="5" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E05 - Riesenkatze mit Halsreif.avi" />
+			<episode nr="6" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E06 - Die Schwulennummer.avi" />
+			<episode nr="7" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E07 - Das Tagebuch.avi" />
+			<episode nr="8" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E08 - Danke für den Geschlechtsverkehr.avi" />
+			<episode nr="9" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E09 - Frodos Autogrammkarten.avi" />
+			<episode nr="10" path="J:\Serien\Two and a half men\Staffel 9\Two and a Half Men - S09E10 - Ein Fischglas voller Glasau

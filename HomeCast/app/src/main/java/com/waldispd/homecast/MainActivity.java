@@ -29,11 +29,22 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import jcifs.smb.NtlmPasswordAuthentication;
+import jcifs.smb.SmbException;
+import jcifs.smb.SmbFile;
+import jcifs.smb.SmbFileInputStream;
+import jcifs.smb.SmbFileOutputStream;
 
 
 public class MainActivity extends ActionBarActivity
@@ -52,6 +63,8 @@ public class MainActivity extends ActionBarActivity
     Serie[] series;
     Staffel[] staffelList;
 
+    File xmlFile = new File("\\\\192.168.1.115\\j$\\Serien\\serien.xml");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,32 +79,61 @@ public class MainActivity extends ActionBarActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
+        LoadXmlFile();
+
+        XmlParsing();
+    }
+
+    private String LoadXmlFile()
+    {
+        try
+        {
+            String user = "test:password";
+            NtlmPasswordAuthentication auth = new NtlmPasswordAuthentication(user);
+            String path = "smb://192.168.1.115/j$/Serien/serien.xml";
+            SmbFile sFile = new SmbFile(path, auth);
+            SmbFileInputStream smbIS = new SmbFileInputStream(sFile);
+
+            BufferedReader r = new BufferedReader(new InputStreamReader(smbIS));
+            StringBuilder total = new StringBuilder();
+            String line;
+            while ((line = r.readLine()) != null)
+            {
+                total.append(line);
+            }
+            String temp = total.toString();
+            return total.toString();
+
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        } catch (SmbException e) {
+            e.printStackTrace();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void XmlParsing()
+    {
         // xml parsing
         XmlPullParserFactory pullParserFactory ;
         XmlPullParser parser = null;
         try {
             pullParserFactory = XmlPullParserFactory.newInstance();
-            parser = pullParserFactory.newPullParser();
 
-            //InputStream in_s = getApplicationContext().getAssets().open("test.xml");
             XmlResourceParser xrp = getApplicationContext().getResources().getXml(R.xml.test);
-            //xrp.setFeature(XmlResourceParser.FEATURE_PROCESS_NAMESPACES, false);
-            //xrp.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-            //parser.setInput(xrp., null);
 
             parseXML(xrp);
         } catch (XmlPullParserException e) {
             e.printStackTrace();
         }
-        /*catch (IOException e) {
-            e.printStackTrace();
-        }*/
     }
 
     private void parseXML(XmlResourceParser parser)
     {
         try {
-
             ArrayList<Serie> series = new ArrayList();
             int eventType = parser.getEventType();
             Serie curSerie = null;
@@ -136,9 +178,6 @@ public class MainActivity extends ActionBarActivity
                         {
                             curStaffel.episodeList.add(curEpisode);
                         }
-                        else if (name.equalsIgnoreCase("serie") && curSerie != null) {
-                            //series.add(curSerie);
-                        }
                 }
                 eventType = parser.next();
             }
@@ -159,8 +198,6 @@ public class MainActivity extends ActionBarActivity
         for (int i = 0; i < series.length; i++)
         {
             drawerListViewItems[i] = series[i].titel;
-            Toast toast = Toast.makeText(getApplicationContext(), series[i].titel, Toast.LENGTH_LONG);
-            toast.show();
         }
         drawerListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, drawerListViewItems));
     }
@@ -168,7 +205,6 @@ public class MainActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-
         try
         {
             LoadStaffelFragment(series[position]);
@@ -177,37 +213,11 @@ public class MainActivity extends ActionBarActivity
         {
             return;
         }
-
-
     }
 
-    private void LoadStaffel(int position)
+    public void LoadEpisode(Episode episode)
     {
-        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(staffelList[position].number), Toast.LENGTH_SHORT);
-        toast.show();
-
-        LoadEpisodeFragment();
-
-        Episode[] episodeList = staffelList[position].episodeList.toArray(new Episode[staffelList[position].episodeList.size()]);
-        String[] episodeTitel = new String[staffelList[position].episodeList.size()];
-        for (int i = 0; i < staffelList[position].episodeList.size(); i++) {
-            episodeTitel[i] = "Episode " + staffelList[position].episodeList.get(i).number;
-        }
-        ListView episodeListView = (ListView) findViewById(R.id.episodeList);
-        episodeListView.setOnItemClickListener(new AdapterView.OnItemClickListener()
-        {
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-
-                LoadEpisode(position);
-            }
-        });
-        episodeListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, episodeTitel));
-    }
-
-    private void LoadEpisode(int position)
-    {
-        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(position), Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), "Episode ::" + String.valueOf(episode.number), Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -219,23 +229,19 @@ public class MainActivity extends ActionBarActivity
         newFragment.setArguments(getIntent().getExtras());
         android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.replace(R.id.fragment_container, newFragment);
-        transaction.addToBackStack(null);
+        //transaction.addToBackStack("Staffel");
         transaction.commit();
-
-        /*transaction.replace(R.id.staffel_fragment, newFragment);
-        transaction.addToBackStack(null);
-
-        transaction.commit();*/
     }
 
-    private void LoadEpisodeFragment()
+    public void LoadEpisodeFragment(Staffel staffel)
     {
         EpisodeFragment newFragment = new EpisodeFragment();
+        newFragment.mStaffel = staffel;
+        newFragment.mActivity = this;
+        newFragment.setArguments(getIntent().getExtras());
         android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
         transaction.replace(R.id.fragment_container, newFragment);
-        transaction.addToBackStack(null);
-
+        //transaction.addToBackStack();
         transaction.commit();
     }
 
