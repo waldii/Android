@@ -3,6 +3,7 @@ package com.waldispd.homecast;
 import android.app.Activity;
 import android.content.res.XmlResourceParser;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.support.v4.app.FragmentManager;
 import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.internal.widget.AdapterViewCompat;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -30,6 +32,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -47,6 +50,7 @@ public class MainActivity extends ActionBarActivity
     private CharSequence mTitle;
     String[] drawerListViewItems;
     Serie[] series;
+    Staffel[] staffelList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,39 +168,75 @@ public class MainActivity extends ActionBarActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
+
         try
         {
-            Staffel[] staffelList = series[position].staffelList.toArray(new Staffel[series[position].staffelList.size()]);
-            String[] staffelTitel = new String[staffelList.length];
-            for (int i = 0; i < staffelList.length; i++) {
-                staffelTitel[i] = "Staffel " + staffelList[i].number;
-            }
-            ListView staffelListView = (ListView) findViewById(R.id.staffelList);
-            staffelListView.setOnItemClickListener(new AdapterView.OnItemClickListener()
-            {
-                @Override
-                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-
-                    LoadStaffel(position);
-                }
-            });
-            staffelListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, staffelTitel));
+            LoadStaffelFragment(series[position]);
         }
         catch (Exception ex)
         {
             return;
         }
 
-        /*FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                .commit();*/
+
     }
 
-    private void LoadStaffel(int pos)
+    private void LoadStaffel(int position)
     {
-        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(pos), Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(staffelList[position].number), Toast.LENGTH_SHORT);
         toast.show();
+
+        LoadEpisodeFragment();
+
+        Episode[] episodeList = staffelList[position].episodeList.toArray(new Episode[staffelList[position].episodeList.size()]);
+        String[] episodeTitel = new String[staffelList[position].episodeList.size()];
+        for (int i = 0; i < staffelList[position].episodeList.size(); i++) {
+            episodeTitel[i] = "Episode " + staffelList[position].episodeList.get(i).number;
+        }
+        ListView episodeListView = (ListView) findViewById(R.id.episodeList);
+        episodeListView.setOnItemClickListener(new AdapterView.OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+
+                LoadEpisode(position);
+            }
+        });
+        episodeListView.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_listview_item, episodeTitel));
+    }
+
+    private void LoadEpisode(int position)
+    {
+        Toast toast = Toast.makeText(getApplicationContext(), String.valueOf(position), Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    private void LoadStaffelFragment(Serie serie)
+    {
+        StaffelFragment newFragment = new StaffelFragment();
+        newFragment.mSerie = serie;
+        newFragment.mActivity = this;
+        newFragment.setArguments(getIntent().getExtras());
+        android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        transaction.replace(R.id.fragment_container, newFragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
+
+        /*transaction.replace(R.id.staffel_fragment, newFragment);
+        transaction.addToBackStack(null);
+
+        transaction.commit();*/
+    }
+
+    private void LoadEpisodeFragment()
+    {
+        EpisodeFragment newFragment = new EpisodeFragment();
+        android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+        transaction.replace(R.id.fragment_container, newFragment);
+        transaction.addToBackStack(null);
+
+        transaction.commit();
     }
 
     public void onSectionAttached(int number) {
@@ -243,7 +283,7 @@ public class MainActivity extends ActionBarActivity
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    public static class PlaceholderFragment extends android.app.Fragment {
         /**
          * The fragment argument representing the section number for this
          * fragment.
