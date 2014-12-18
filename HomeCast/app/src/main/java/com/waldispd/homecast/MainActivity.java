@@ -34,6 +34,8 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 
+import org.apache.commons.io.ByteOrderMark;
+import org.apache.commons.io.input.BOMInputStream;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -43,8 +45,10 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
+import java.nio.ByteOrder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -84,6 +88,7 @@ public class MainActivity extends ActionBarActivity
     private boolean mApplicationStarted = false;
     private boolean mVideoIsLoaded;
     private boolean mIsPlaying;
+    private String IP_Adress = "192.168.1.108";
 
     File xmlFile = new File("\\\\192.168.1.115\\j$\\Serien\\serien.xml");
 
@@ -101,9 +106,8 @@ public class MainActivity extends ActionBarActivity
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
 
-        LoadXmlFile();
 
-        XmlParsing();
+        XmlParsing(LoadXmlFile());
 
         InitMediaRouter();
     }
@@ -113,7 +117,7 @@ public class MainActivity extends ActionBarActivity
         mMediaRouter = android.support.v7.media.MediaRouter.getInstance(getApplicationContext());
         mMediaRouteSelector = new MediaRouteSelector.Builder()
                 .addControlCategory(
-                        CastMediaControlIntent.categoryForCast(getString(R.string.application_id)))
+                        CastMediaControlIntent.categoryForCast(CastMediaControlIntent.DEFAULT_MEDIA_RECEIVER_APPLICATION_ID))
                 .build();
         mMediaRouterCallback = new MediaRouterCallback();
     }
@@ -124,13 +128,13 @@ public class MainActivity extends ActionBarActivity
         {
             StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
             StrictMode.setThreadPolicy(tp);
-            String user = "user:pw";
+            String user = "Dominik:junges";
             NtlmPasswordAuthentication auth = new NtlmPasswordAuthentication(user);
-            String path = "smb://192.168.1.115/Serien/serien.xml"; //192.168.1.115
+            String path = "smb://" + IP_Adress +"/Serien/serien.xml"; //192.168.1.115
             SmbFile sFile = new SmbFile(path, auth);
             InputStream smbIS = sFile.getInputStream();
 
-            BufferedReader r = new BufferedReader(new InputStreamReader(smbIS));
+            BufferedReader r = new BufferedReader(new InputStreamReader(new BOMInputStream(smbIS, false, ByteOrderMark.UTF_8)));
             StringBuilder total = new StringBuilder();
             String line;
             while ((line = r.readLine()) != null)
@@ -138,7 +142,7 @@ public class MainActivity extends ActionBarActivity
                 total.append(line);
             }
             String temp = total.toString();
-            return total.toString();
+            return temp;
 
         } catch (UnknownHostException e) {
             e.printStackTrace();
@@ -154,23 +158,23 @@ public class MainActivity extends ActionBarActivity
         return null;
     }
 
-    private void XmlParsing()
+    private void XmlParsing(String string)
     {
         // xml parsing
         XmlPullParserFactory pullParserFactory ;
         XmlPullParser parser = null;
         try {
             pullParserFactory = XmlPullParserFactory.newInstance();
-
-            XmlResourceParser xrp = getApplicationContext().getResources().getXml(R.xml.test);
-
-            parseXML(xrp);
+            parser = pullParserFactory.newPullParser();
+            //XmlResourceParser xrp = getApplicationContext().getResources().getXml(R.xml.test);
+            parser.setInput(new StringReader(string));
+            parseXML(parser);
         } catch (XmlPullParserException e) {
             e.printStackTrace();
         }
     }
 
-    private void parseXML(XmlResourceParser parser)
+    private void parseXML(XmlPullParser parser)
     {
         try {
             ArrayList<Serie> series = new ArrayList();
@@ -264,14 +268,11 @@ public class MainActivity extends ActionBarActivity
 
     public void startVideo(Episode episode)
     {
-        Toast toast = Toast.makeText(getApplicationContext(), "Episode ::" + String.valueOf(episode.number), Toast.LENGTH_SHORT);
-        toast.show();
-
         MediaMetadata mediaMetadata = new MediaMetadata( MediaMetadata.MEDIA_TYPE_MOVIE );
-        mediaMetadata.putString( MediaMetadata.KEY_TITLE, getString(episode.number) );
+        mediaMetadata.putString( MediaMetadata.KEY_TITLE, "Episode" + String.valueOf(episode.number) );
 
-        MediaInfo mediaInfo = new MediaInfo.Builder( episode.path)
-                .setContentType( getString( R.string.content_type_mp4 ) )
+        MediaInfo mediaInfo = new MediaInfo.Builder(GetNetworkPath(episode.path))
+                .setContentType( getString( R.string.content_type_avi ) )
                 .setStreamType( MediaInfo.STREAM_TYPE_BUFFERED )
                 .setMetadata( mediaMetadata )
                 .build();
@@ -288,6 +289,11 @@ public class MainActivity extends ActionBarActivity
                     } );
         } catch( Exception e ) {
         }
+    }
+
+    private String GetNetworkPath(String path)
+    {
+        return path.replace("J:\\", "\\\\" + IP_Adress + "\\");//"smb://" + IP_Adress + "\\");
     }
 
     private void controlVideo() {
@@ -468,7 +474,7 @@ public class MainActivity extends ActionBarActivity
                 reconnectChannels( hint );
             } else {
                 try {
-                    Cast.CastApi.launchApplication( mApiClient, getString( R.string.application_id ), false )
+                    Cast.CastApi.launchApplication( mApiClient, getString( R.string.app_id ), false )
                             .setResultCallback(
                                     new ResultCallback<Cast.ApplicationConnectionResult>() {
                                         @Override
