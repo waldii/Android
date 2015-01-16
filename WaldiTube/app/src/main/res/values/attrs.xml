@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VideoView">
+        <attr name="titel" format="string"/>
+        <attr name="cached" format="boolean"/>
+        <attr name="description" format="string"/>
+    </declare-styleable>
+</resources>

@@ -6,20 +6,23 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
 import java.util.Locale;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
+import android.util.Pair;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -35,21 +38,11 @@ import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunnin
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
 
 
-public class MainActivity extends ActionBarActivity implements ActionBar.TabListener {
-
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
+public class MainActivity extends ActionBarActivity implements ActionBar.TabListener
+{
     SectionsPagerAdapter mSectionsPagerAdapter;
+    ArrayList<Pair<String, Fragment>> Tabs = new ArrayList<>();
 
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
     ViewPager mViewPager;
 
     @Override
@@ -57,21 +50,14 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Set up the action bar.
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        // When swiping between different sections, select the corresponding
-        // tab. We can also use ActionBar.Tab#select() to do this if we have
-        // a reference to the Tab.
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
@@ -79,19 +65,31 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             }
         });
 
-        // For each of the sections in the app, add a tab to the action bar.
-        for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
-            // Create a tab with text corresponding to the page title defined by
-            // the adapter. Also specify this Activity object, which implements
-            // the TabListener interface, as the callback (listener) for when
-            // this tab is selected.
-            actionBar.addTab(
-                    actionBar.newTab()
-                            .setText(mSectionsPagerAdapter.getPageTitle(i))
-                            .setTabListener(this));
+        FavoritesFragment favFragment = new FavoritesFragment();
+        Bundle args = new Bundle();
+        args.putInt("section_number", 0);
+        favFragment.setArguments(args);
+        Tabs.add(new Pair<String, Fragment>("Favorites", favFragment));
+
+        PlayerFragment playFragment = new PlayerFragment();
+        Bundle args2 = new Bundle();
+        args.putInt("section_number", 1);
+        playFragment.setArguments(args2);
+        Tabs.add(new Pair<String, Fragment>("Player", playFragment));
+
+        SearchFragment searchFragment = new SearchFragment();
+        Bundle args3 = new Bundle();
+        args.putInt("section_number", 2);
+        searchFragment.setArguments(args3);
+        Tabs.add(new Pair<String, Fragment>("Search", searchFragment));
+
+        for (int i = 0; i < Tabs.size(); i++)
+        {
+            actionBar.addTab(actionBar.newTab().setText(Tabs.get(i).first).setTabListener(this));
         }
+
         InitFFMpeg();
-        startDownload();
+        //startDownload();
     }
 
     private void InitFFMpeg()
@@ -121,7 +119,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     {
         FFmpeg ffmpeg = FFmpeg.getInstance(this);
         try {
-            // to execute "ffmpeg -version" command you just need to pass "-version"
             ffmpeg.execute(cmd, new ExecuteBinaryResponseHandler() {
 
                 @Override
@@ -149,7 +146,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
     private void startDownload()
     {
-        //String url = "http://r6---sn-h5q7dn7r.googlevideo.com/videoplayback?upn=wmxIobFzWuQ&ms=au&mt=1421402380&itag=247&pl=24&mm=31&expire=1421424047&id=o-AE46A7PvTYIZyR3d5-ULbVDBYpMS9LLTzVw4EIZ6Ztz9&sver=3&sparams=clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Cmm%2Cms%2Cmv%2Cnh%2Cpl%2Csource%2Cupn%2Cexpire&ip=196.3.50.254&gir=yes&dur=48.440&lmt=1415098642553133&key=yt5&fexp=900359%2C900718%2C907263%2C927622%2C9405841%2C941004%2C943917%2C947209%2C947225%2C948124%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701&mv=m&ipbits=0&clen=3191833&nh=IgpwcjAyLm1hZDAxKgkxMjcuMC4wLjE&source=youtube&signature=B8673ADC6DE8FC80905E50FC4868BA82C360C735.97086D4AD1F70D81E4222ADBED203F2D03078CC6";
         String url = "http://r16---sn-ab5l6nee.googlevideo.com/videoplayback?key=yt5&upn=ndXgfRmsSVY&dur=31.973&id=o-ALYvUwSwjsJMRIRX524qZSvjzSb0w3H0EcRPgGyiDsG3&itag=18&pl=24&mt=1421412453&ratebypass=yes&fexp=900359,900718,907263,927622,9405841,941004,943917,947209,947225,948124,952302,952605,952901,955301,957103,957105,957201,959701&ms=au&expire=1421434152&mv=m&source=youtube&mm=31&sparams=dur,id,ip,ipbits,itag,mm,ms,mv,pl,ratebypass,source,upn,expire&sver=3&ipbits=0&signature=D975D4E462611A5135610A6BE3DA7652D5DE28A3.C83074C244A8D3CE3F6BB4ECA8EAA48C9AAD9C81&ip=196.3.50.254";
         new DownloadFileAsync().execute(url);
     }
@@ -259,8 +255,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-        // When the given tab is selected, switch to the corresponding page in
-        // the ViewPager.
         mViewPager.setCurrentItem(tab.getPosition());
     }
 
@@ -272,10 +266,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
     }
 
-    /**
-     * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
-     * one of the sections/tabs/pages.
-     */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
@@ -283,22 +273,20 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
 
         @Override
-        public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+        public android.support.v4.app.Fragment getItem(int position) {
+            return Tabs.get(position).second;
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            return 3;//Tabs.size();
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             Locale l = Locale.getDefault();
-            switch (position) {
+            return Tabs.get(position).first.toUpperCase(l);
+            /*switch (position) {
                 case 0:
                     return getString(R.string.title_section1).toUpperCase(l);
                 case 1:
@@ -306,41 +294,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 case 2:
                     return getString(R.string.title_section3).toUpperCase(l);
             }
-            return null;
+            return null;*/
         }
     }
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
-    public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
-        private static final String ARG_SECTION_NUMBER = "section_number";
-
-        /**
-         * Returns a new instance of this fragment for the given section
-         * number.
-         */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
-            PlaceholderFragment fragment = new PlaceholderFragment();
-            Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
-            fragment.setArguments(args);
-            return fragment;
-        }
-
-        public PlaceholderFragment() {
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
-        }
-    }
-
 }
