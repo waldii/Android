@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.ScrollView;
 
 /**
  * Created by waldispd on 16.01.2015.
@@ -18,11 +19,11 @@ public class FavoritesFragment extends Fragment
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_favorites, container, false);
 
-        ListView list = (ListView) view.findViewById(R.id.testlistview);
+        ScrollView scrollView = (ScrollView) view.findViewById(R.id.testlistview);
 
         VideoView videoview = new VideoView(getActivity().getApplicationContext());
 
-        list.addView(videoview);
+        scrollView.addView(videoview);
         return view;
     }
 }

@@ -11,14 +11,16 @@
         android:layout_height="wrap_content"
         android:text="Favorites"/>
 
-    <ListView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:id="@+id/testlistview">
-        <!--<com.waldispd.walditube.VideoView
+        <com.waldispd.walditube.VideoView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titel="Test one"/>-->
-        </ListView>
+            app:titel="Test one"
+            app:description="ASdlkj"
+            app:cached="false"/>
+        </ScrollView>
 </LinearLayout>

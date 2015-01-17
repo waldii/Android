@@ -36,8 +36,8 @@ public class VideoView extends LinearLayout
             {
                 case R.styleable.VideoView_titel:
                     String titel = a.getString(attr);
-                    //TextView view = (TextView)findViewById(R.id.Test1);
-                    //view.setText(titel);
+                    TextView view = (TextView)findViewById(R.id.Test1);
+                    view.setText(titel);
                     break;
                 case R.styleable.VideoView_description:
                     String description = a.getString(attr);
