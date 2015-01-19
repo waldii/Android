@@ -2,15 +2,10 @@ package com.waldispd.walditube;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.provider.MediaStore;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-
-import java.util.jar.Attributes;
 
 /**
  * Created by waldispd on 16.01.2015.
@@ -36,8 +31,8 @@ public class VideoView extends LinearLayout
             {
                 case R.styleable.VideoView_titel:
                     String titel = a.getString(attr);
-                    TextView view = (TextView)findViewById(R.id.Test1);
-                    view.setText(titel);
+                    //TextView view = (TextView)findViewById(R.id.Test1);
+                    //view.setText(titel);
                     break;
                 case R.styleable.VideoView_description:
                     String description = a.getString(attr);

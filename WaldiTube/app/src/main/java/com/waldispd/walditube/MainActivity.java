@@ -11,6 +11,7 @@ import java.util.Locale;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -29,7 +30,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
@@ -65,7 +70,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             }
         });
 
-        FavoritesFragment favFragment = new FavoritesFragment();
+        FavoritesFragment favFragment = new FavoritesFragment(getApplicationContext());
         Bundle args = new Bundle();
         args.putInt("section_number", 0);
         favFragment.setArguments(args);
@@ -77,7 +82,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         playFragment.setArguments(args2);
         Tabs.add(new Pair<String, Fragment>("Player", playFragment));
 
-        SearchFragment searchFragment = new SearchFragment();
+        SearchFragment searchFragment = new SearchFragment(getApplicationContext());
         Bundle args3 = new Bundle();
         args.putInt("section_number", 2);
         searchFragment.setArguments(args3);
@@ -88,7 +93,9 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             actionBar.addTab(actionBar.newTab().setText(Tabs.get(i).first).setTabListener(this));
         }
 
-        InitFFMpeg();
+
+
+        //InitFFMpeg();
         //startDownload();
     }
 
@@ -297,4 +304,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             return null;*/
         }
     }
+
+
 }
