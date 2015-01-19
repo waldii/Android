@@ -6,7 +6,7 @@
     <ImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/ic_launcher"
+        android:src="@drawable/no_thumbnail"
         android:id="@+id/thumbnail"/>
 
     <RelativeLayout
@@ -21,13 +21,18 @@
             android:layout_alignParentTop="true"
             android:id="@+id/title"
             android:textStyle="bold"
-            android:textSize="27sp" />
+            android:textSize="20sp"
+            android:maxLines="2"
+            android:minLines="1" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:text="Test2, not set"
-            android:id="@+id/description"/>
+            android:id="@+id/description"
+            android:layout_alignParentTop="false"
+            android:maxLines="3"
+            android:minLines="1" />
         </RelativeLayout>
 
     <RelativeLayout

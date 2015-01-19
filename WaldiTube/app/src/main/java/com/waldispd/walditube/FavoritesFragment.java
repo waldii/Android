@@ -18,6 +18,7 @@ import java.util.ArrayList;
 public class FavoritesFragment extends Fragment
 {
     final Context applicationContext;
+
     public FavoritesFragment(Context applicationContext)
     {
         this.applicationContext = applicationContext;
@@ -30,14 +31,14 @@ public class FavoritesFragment extends Fragment
         View view = inflater.inflate(R.layout.fragment_favorites, container, false);
 
         YoutubeVideo[] videos = new YoutubeVideo[3];
-        videos[0] = new YoutubeVideo("test1.1", "test1.2");
-        videos[1] = new YoutubeVideo("test2.1", "test2.2");
-        videos[2] = new YoutubeVideo("test3.1", "test3.2");
+        videos[0] = new YoutubeVideo("test1.1", "test1.2", "GJQTXQB8qfo");
+        videos[1] = new YoutubeVideo("test2.1", "test2.2", "Ai3Ay9A7WqM");
+        videos[2] = new YoutubeVideo("test3.1", "test3.2", "hjcHe25rvbE");
 
         ArrayList<YoutubeVideo> list = new ArrayList<YoutubeVideo>();
-        list.add(new YoutubeVideo("test1", "test2"));
+        /*list.add(new YoutubeVideo("test1", "test2"));
         list.add(new YoutubeVideo("test12", "test22"));
-        list.add(new YoutubeVideo("test13", "test23"));
+        list.add(new YoutubeVideo("test13", "test23"));*/
 
         ListView listView = (ListView)view.findViewById(R.id.favoritesListView);
         final VideoArrayAdapter videoArrayAdapter = new VideoArrayAdapter(applicationContext, videos);

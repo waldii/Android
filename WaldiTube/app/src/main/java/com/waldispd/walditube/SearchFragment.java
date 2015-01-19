@@ -7,8 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ListView;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -20,6 +22,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -32,7 +35,9 @@ import java.util.concurrent.ExecutionException;
 public class SearchFragment extends Fragment
 {
     final Context applicationContext;
+    VideoArrayAdapter videoArrayAdapter = null;
     View view;
+    YoutubeVideo[] videos = new YoutubeVideo[0];
 
     public SearchFragment(Context applicationContext)
     {
@@ -53,6 +58,26 @@ public class SearchFragment extends Fragment
             }
         });
 
+        ListView listView = (ListView)view.findViewById(R.id.searchListView);
+        listView.setLongClickable(true);
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+                YoutubeVideo video = videos[position];
+                try {
+                    video.ToFavorited();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+                return false;
+            }
+        });
+
         return view;
     }
 
@@ -64,12 +89,17 @@ public class SearchFragment extends Fragment
         ArrayList<YoutubeVideo> list = new ArrayList<>();
 
         try {
-            DownloadAsyncTask task = new DownloadAsyncTask(GetSearchUrl(searchTerm));
+            DownloadAsyncTask task = new DownloadAsyncTask(Util.GetSearchUrl(searchTerm));
             task.execute();
             task.get();
-            list = XmlParsing(task.text);
+            ArrayList<YoutubeVideo> videosList = XmlParsing(task.text);
+            videos = videosList.toArray(new YoutubeVideo[videosList.size()]);
 
             // Set listivew
+            ListView listView = (ListView)view.findViewById(R.id.searchListView);
+            videoArrayAdapter = new VideoArrayAdapter(applicationContext, videos);
+            listView.setAdapter(videoArrayAdapter);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
@@ -77,57 +107,7 @@ public class SearchFragment extends Fragment
         }
     }
 
-
-    private class DownloadAsyncTask extends AsyncTask<Void, Void, Void>
-    {
-        public String text = "";
-        private String url = "";
-
-        public DownloadAsyncTask(String url)
-        {
-            this.url = url;
-        }
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            text =  DownloadSearchResults(url);
-            return null;
-        }
-    }
-
-    private String DownloadSearchResults(String stringUrl)
-    {
-        try {
-            URL url = new URL(stringUrl);
-            HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-            try {
-                InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-                BufferedReader r = new BufferedReader(new InputStreamReader(in));
-                StringBuilder total = new StringBuilder();
-                String line;
-                while ((line = r.readLine()) != null) {
-                    total.append(line);
-                }
-                return total.toString();
-            } finally {
-                urlConnection.disconnect();
-            }
-        }
-        catch (MalformedURLException ex) {
-            ex.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    final String searchUrl = "https://gdata.youtube.com/feeds/api/videos?q=";
-
-    public String GetSearchUrl(String term)
-    {
-        return searchUrl + term;
-    }
-
+    // XML stuff    ----
     public ArrayList<YoutubeVideo> XmlParsing(String string)
     {
         // xml parsing
@@ -136,7 +116,7 @@ public class SearchFragment extends Fragment
         try {
             pullParserFactory = XmlPullParserFactory.newInstance();
             parser = pullParserFactory.newPullParser();
-            //XmlResourceParser xrp = getApplicationContext().getResources().getXml(R.xml.test);
+
             parser.setInput(new StringReader(string));
             return ParseXML(parser);
         } catch (XmlPullParserException e) {
@@ -165,7 +145,7 @@ public class SearchFragment extends Fragment
                         } else if (name.equals("id")) {
                             if (!headerIsOver)
                                 break;
-                            curVideo.videoId = parser.nextText();
+                            curVideo.videoId = Util.GetVideoIdFromLink(parser.nextText());
                         } else if (name.equals("title")) {
                             if (!headerIsOver)
                                 break;
