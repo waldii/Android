@@ -1,10 +1,6 @@
 package com.waldispd.walditube;
 
-import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 
 import java.io.BufferedInputStream;
@@ -20,7 +16,6 @@ import java.net.URLConnection;
 public class DownloadFileAsync extends AsyncTask<String, String, String> {
 
     public static final int DIALOG_DOWNLOAD_PROGRESS = 1;
-    private ProgressDialog progressDialog;
 
     @Override
     protected String doInBackground(String... params) {
@@ -79,28 +74,6 @@ public class DownloadFileAsync extends AsyncTask<String, String, String> {
     protected void onProgressUpdate(String... values) {
         // TODO Auto-generated method stub
         Log.d("ANDRO_ASYNC", values[0]);
-        progressDialog.setProgress(Integer.parseInt(values[0]));
+        Util.mainActivity.progressDialog.setProgress(Integer.parseInt(values[0]));
     }
-
-    public class MainActiity extends ActionBarActivity
-    {
-        @Override
-        protected Dialog onCreateDialog(int id) {
-            // TODO Auto-generated method stub
-            switch (id) {
-                case DIALOG_DOWNLOAD_PROGRESS:
-                    progressDialog = new ProgressDialog(Util.mainActivity.getApplicationContext());
-                    progressDialog.setMessage("Downloading file...");
-                    progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-                    progressDialog.setCancelable(false);
-                    progressDialog.show();
-                    return progressDialog;
-                default:
-                    return null;
-            }
-        }
-    }
-
-
-
 }

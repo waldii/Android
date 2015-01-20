@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
  */
 public class DataHandler
 {
-    private static ArrayList<YoutubeVideo> favoritedVideos;
+    private static ArrayList<YoutubeVideo> favoritedVideos = new ArrayList<>();
 
     public static void AddFavoritedVideo(YoutubeVideo video) throws InterruptedException, ExecutionException, UnsupportedEncodingException {
         Util.DownloadAllVideoData(video.videoId);

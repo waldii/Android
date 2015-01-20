@@ -2,8 +2,7 @@ package com.waldispd.walditube;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.nio.charset.Charset;
+import java.net.URLDecoder;
 import java.util.concurrent.ExecutionException;
 
 /**
@@ -51,20 +50,19 @@ public class Util
         DownloadAsyncTask asyncTask = new DownloadAsyncTask(GetYoutubeVideoInfoUrl(videoId));
         asyncTask.execute();
         asyncTask.get();
-        String downloadPathVideo = GetDownloadPathFromVideoInfo(asyncTask.text);
-        new DownloadFileAsync().execute(downloadPathVideo, videoId);
+
+        String textEnc = URLDecoder.decode(asyncTask.text, "UTF-8");
+
+        YoutubeInfo info = new YoutubeInfo(textEnc, videoId);
+        info.GetUrlForQuality(Quality.medium);
+
+        mainActivity.Showdialog(info);
     }
 
-    private static String GetDownloadPathFromVideoInfo(String text) throws UnsupportedEncodingException {
-        //text = URLEncoder.encode(text, "UTF-8");
-
-        final Charset UTF_8 = Charset.forName("UTF-8");
-        //text = new String(text.getBytes(UTF_8), UTF_8);
-
-        //text = URLEncoder.encode(text, "UTF-8");
-
-        YoutubeInfo info = new YoutubeInfo(text);
-        return info.GetUrlForQuality(Quality.medium);
+    public static void DownloadVideo(YoutubeInfo info, int which)
+    {
+        String url = info.urls.get(which);
+        new DownloadFileAsync().execute(url, info.videoId);
     }
 
     public static void DeleteAllVideoData(String videoId)

@@ -1,46 +1,29 @@
 package com.waldispd.walditube;
 
-import java.io.BufferedInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
-import java.util.Locale;
-
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.Context;
-import android.os.AsyncTask;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.app.FragmentPagerAdapter;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Pair;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
 import com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException;
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
+
+import java.util.ArrayList;
+import java.util.Locale;
 
 
 public class MainActivity extends ActionBarActivity implements ActionBar.TabListener
@@ -101,6 +84,32 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         //startDownload();
     }
 
+    private YoutubeInfo _currentInfoChooser = null;
+
+    public void Showdialog(YoutubeInfo info) {
+
+        AlertDialog.Builder adb = new AlertDialog.Builder(this);
+        _currentInfoChooser = info;
+        CharSequence items[] = info.qualitys.toArray(new CharSequence[info.qualitys.size()]);
+        adb.setSingleChoiceItems(items, 0, new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface d, int n) {
+                // ...
+            }
+
+        });
+        adb.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Util.DownloadVideo(_currentInfoChooser, which);
+            }
+        });
+        adb.setNegativeButton("Cancel", null);
+        adb.setTitle("Choose quality");
+        adb.show();
+    }
+
     private void InitFFMpeg()
     {
         FFmpeg ffmpeg = FFmpeg.getInstance(this);
@@ -150,8 +159,24 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
     }
 
+    public static final int DIALOG_DOWNLOAD_PROGRESS = 1;
+    public ProgressDialog progressDialog;
 
-
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        // TODO Auto-generated method stub
+        switch (id) {
+            case DIALOG_DOWNLOAD_PROGRESS:
+                progressDialog = new ProgressDialog(Util.mainActivity);
+                progressDialog.setMessage("Downloading file...");
+                progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                progressDialog.setCancelable(false);
+                progressDialog.show();
+                return progressDialog;
+            default:
+                return null;
+        }
+    }
 
 
     @Override

@@ -10,7 +10,8 @@
         <EditText
             android:layout_width="330dp"
             android:layout_height="wrap_content"
-            android:id="@+id/searchEditText" />
+            android:id="@+id/searchEditText"
+            android:text="renault"/>
         <ImageButton
             android:layout_width="45dp"
             android:layout_height="45dp"
