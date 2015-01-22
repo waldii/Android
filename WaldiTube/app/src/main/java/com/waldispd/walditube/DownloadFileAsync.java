@@ -24,7 +24,7 @@ public class DownloadFileAsync extends AsyncTask<String, String, String> {
 
         try {
 
-            URL url = new URL(params[0]);
+            URL url = new URL(Util.GetUft8EncodedString(params[0]));
             URLConnection conexion = url.openConnection();
             conexion.connect();
 

@@ -13,6 +13,7 @@ public class YoutubeInfo
     ArrayList<Pair<String, String>> keyValuePairs = new ArrayList<>();
     String text;
     String videoId;
+    int duration = 0;
     int qualityIndex = 0;
     ArrayList<String> qualitys = new ArrayList<>();
     int urlsIndex = 0;

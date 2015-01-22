@@ -13,6 +13,7 @@ public class YoutubeVideo
     public String videoId = "";
     public Boolean cached = false;
     public Boolean favorited = false;
+    public int duration = 0;
 
     public YoutubeVideo()
     {
@@ -26,17 +27,19 @@ public class YoutubeVideo
         this.videoId = videoId;
     }
 
-    public YoutubeVideo(String title, String description, String videoId, Boolean cached, Boolean favorited)
+    public YoutubeVideo(String title, String description, String videoId, Boolean cached, Boolean favorited, int duration)
     {
         this.title = title;
         this.description = description;
         this.videoId = videoId;
         this.cached = cached;
         this.favorited = favorited;
+        this.duration = duration;
     }
 
     public void ToFavorited() throws InterruptedException, ExecutionException, UnsupportedEncodingException {
-        DataHandler.AddFavoritedVideo(this);
         favorited = true;
+        DataHandler.AddFavoritedVideo(this);
+
     }
 }

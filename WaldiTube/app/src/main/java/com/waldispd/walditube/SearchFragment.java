@@ -1,7 +1,6 @@
 package com.waldispd.walditube;
 
 import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -16,16 +15,8 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
@@ -37,7 +28,7 @@ public class SearchFragment extends Fragment
     final Context applicationContext;
     VideoArrayAdapter videoArrayAdapter = null;
     View view;
-    YoutubeVideo[] videos = new YoutubeVideo[0];
+    ArrayList<YoutubeVideo> videosList = new ArrayList<>();
 
     public SearchFragment(Context applicationContext)
     {
@@ -64,7 +55,7 @@ public class SearchFragment extends Fragment
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
-                YoutubeVideo video = videos[position];
+                YoutubeVideo video = videosList.get(position);
                 try {
                     video.ToFavorited();
                 } catch (InterruptedException e) {
@@ -92,12 +83,12 @@ public class SearchFragment extends Fragment
             DownloadAsyncTask task = new DownloadAsyncTask(Util.GetSearchUrl(searchTerm));
             task.execute();
             task.get();
-            ArrayList<YoutubeVideo> videosList = XmlParsing(task.text);
-            videos = videosList.toArray(new YoutubeVideo[videosList.size()]);
+            videosList = XmlParsing(task.text);
+            //videos = videosList.toArray(new YoutubeVideo[videosList.size()]);
 
             // Set listivew
             ListView listView = (ListView)view.findViewById(R.id.searchListView);
-            videoArrayAdapter = new VideoArrayAdapter(applicationContext, videos);
+            videoArrayAdapter = new VideoArrayAdapter(applicationContext, videosList);
             listView.setAdapter(videoArrayAdapter);
 
         } catch (InterruptedException e) {
@@ -154,6 +145,10 @@ public class SearchFragment extends Fragment
                             if (!headerIsOver)
                                 break;
                             curVideo.description = parser.nextText();
+                        } else if (name.equals("media:content")) {
+                            if (!headerIsOver)
+                                break;
+                            curVideo.duration = Integer.parseInt(parser.getAttributeValue(null, "duration"));
                         }
                         break;
                     case XmlPullParser.END_TAG:

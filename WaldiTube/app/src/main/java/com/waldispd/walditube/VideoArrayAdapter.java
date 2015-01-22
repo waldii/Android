@@ -13,14 +13,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.BufferedInputStream;
-import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
 /**
  * Created by waldispd on 19.01.2015.
@@ -28,9 +28,9 @@ import java.net.URL;
 public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
 {
     private final Context context;
-    private final YoutubeVideo[] values;
+    private final ArrayList<YoutubeVideo> values;
 
-    public VideoArrayAdapter(Context context, YoutubeVideo[] values)
+    public VideoArrayAdapter(Context context, ArrayList<YoutubeVideo> values)
     {
         super(context, R.layout.videoview, values);
         this.context = context;
@@ -43,18 +43,31 @@ public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View rawView = inflater.inflate(R.layout.videoview, parent, false);
 
+        YoutubeVideo video = values.get(position);
+
         TextView textViewTitle = (TextView) rawView.findViewById(R.id.title);
-        textViewTitle.setText(values[position].title);
+        textViewTitle.setText(video.title);
 
         TextView textViewDescription = (TextView) rawView.findViewById(R.id.description);
-        textViewDescription.setText(values[position].description);
+        textViewDescription.setText(video.description);
+
+        TextView textViewDuration = (TextView) rawView.findViewById(R.id.duration);
+        textViewDuration.setText(Util.GetDurationString(video.duration));
 
         ImageView thumbnail = (ImageView) rawView.findViewById(R.id.thumbnail);
 
-        ThumbnailLoadingAsyncTask asyncTask = new ThumbnailLoadingAsyncTask(values[position].videoId, thumbnail);
-        asyncTask.execute();
-
-
+        if (new File(Util.GetThumbnailStoragePath(video.videoId)).exists())
+        {
+            /*BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inPreferredConfig = Bitmap.Config.ARGB_8888;*/
+            Bitmap bitmap = BitmapFactory.decodeFile(Util.GetThumbnailStoragePath(video.videoId));
+            thumbnail.setImageBitmap(bitmap);
+        }
+        else
+        {
+            ThumbnailLoadingAsyncTask asyncTask = new ThumbnailLoadingAsyncTask(video.videoId, thumbnail, video.favorited);
+            asyncTask.execute();
+        }
         return rawView;
     }
 
@@ -62,17 +75,23 @@ public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
     {
         private String videoId = "";
         private ImageView imageView;
+        private boolean favorited = false;
 
-        public ThumbnailLoadingAsyncTask(String videoId, ImageView imageView)
+        public ThumbnailLoadingAsyncTask(String videoId, ImageView imageView, boolean favorited)
         {
             this.videoId = videoId;
             this.imageView = imageView;
+            this.favorited = favorited;
         }
 
         @Override
         protected Void doInBackground(Void... params) {
             final Bitmap bb = DownloadThumbnail(Util.GetThumbnailImageUrl(videoId));
             Bitmap bMap = BitmapFactory.decodeFile(Util.GetThumbnailStoragePath(videoId));
+            if (favorited)
+            {
+                SafeBmpToSdCard(bMap);
+            }
             Util.mainActivity.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
@@ -81,6 +100,28 @@ public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
             });
 
             return null;
+        }
+
+        private void SafeBmpToSdCard(Bitmap bitmap)
+        {
+            FileOutputStream out = null;
+            try {
+                out = new FileOutputStream(Util.GetThumbnailStoragePath(videoId));
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 70, out);
+                out.flush();
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    if (out != null) {
+                        out.close();
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+
         }
     }
 

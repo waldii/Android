@@ -15,6 +15,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
@@ -39,6 +40,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         setContentView(R.layout.activity_main);
 
         Util.mainActivity = this;
+        DataHandler.DeserializeObjectData();
 
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -92,17 +94,18 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         _currentInfoChooser = info;
         CharSequence items[] = info.qualitys.toArray(new CharSequence[info.qualitys.size()]);
         adb.setSingleChoiceItems(items, 0, new DialogInterface.OnClickListener() {
-
             @Override
             public void onClick(DialogInterface d, int n) {
                 // ...
             }
-
         });
         adb.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Util.DownloadVideo(_currentInfoChooser, which);
+                ListView lw = ((AlertDialog)dialog).getListView();
+                int b = lw.getCheckedItemPosition();
+                Object checkedItem = lw.getAdapter().getItem(lw.getCheckedItemPosition());
+                Util.DownloadVideo(_currentInfoChooser, b);
             }
         });
         adb.setNegativeButton("Cancel", null);

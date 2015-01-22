@@ -1,5 +1,7 @@
 package com.waldispd.walditube;
 
+import android.widget.Toast;
+
 import java.io.File;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
@@ -13,8 +15,33 @@ public class Util
     public static MainActivity mainActivity;
     static String searchUrl = "https://gdata.youtube.com/feeds/api/videos?q=";
     static String youtubeVideoInfoUrl = "https://www.youtube.com/get_video_info?video_id=";
-    static String thumbnailPath = "/sdcard/walditube/";
+    static String thumbnailPath = "/sdcard/walditube/thumbnails/";
     static String videoPath = "/sdcard/walditube/videos/";
+
+    public static String GetUft8EncodedString(String stringToEncode) throws UnsupportedEncodingException
+    {
+        return URLDecoder.decode(stringToEncode, "UTF-8");
+    }
+
+    public static void MakeToast(String text, Boolean timeLong)
+    {
+        int duration = Toast.LENGTH_SHORT;
+        if (timeLong){
+            duration = Toast.LENGTH_LONG;
+        } else {
+            duration = Toast.LENGTH_SHORT;
+        }
+        Toast.makeText(mainActivity.getApplicationContext(), text, duration);
+    }
+
+    public static String GetDurationString(int duration)
+    {
+        int hour = duration / 3600;
+        duration = duration - (hour * 3600);
+        int minutes = duration / 60;
+        duration = duration - (minutes * 60);
+        return String.format("%02d", hour) + ":" + String.format("%02d", minutes) + ":" + String.format("%02d", duration);
+    }
 
     public static String GetVideoIdFromLink(String link)
     {
@@ -38,7 +65,7 @@ public class Util
 
     public static String GetThumbnailStoragePath(String videoId)
     {
-        return thumbnailPath + videoId + ".jpg";
+        return thumbnailPath + videoId + ".jpeg";
     }
 
     public static String GetVideoStoragePath(String videoId)
@@ -68,9 +95,11 @@ public class Util
     public static void DeleteAllVideoData(String videoId)
     {
         File file = new File(GetThumbnailStoragePath(videoId));
-        file.delete();
+        if (file.exists())
+            file.delete();
 
         file = new File(GetVideoStoragePath(videoId));
-        file.delete();
+        if (file.exists())
+            file.delete();
     }
 }
