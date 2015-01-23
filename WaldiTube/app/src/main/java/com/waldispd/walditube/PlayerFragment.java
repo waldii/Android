@@ -11,11 +11,13 @@ import android.view.ViewGroup;
  */
 public class PlayerFragment extends Fragment
 {
+    View view;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_player, container, false);
+        view = inflater.inflate(R.layout.fragment_player, container, false);
 
         return view;
     }

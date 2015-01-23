@@ -46,7 +46,7 @@ public class FavoritesFragment extends Fragment
                     YoutubeVideo video = favVideos[position];
                     videoArrayAdapter.remove(video);
                     DataHandler.RemoveFavoritedVideo(video);
-                    //favVideos = DataHandler.favoritedVideos.toArray(new YoutubeVideo[DataHandler.favoritedVideos.size()]);
+                    favVideos = DataHandler.favoritedVideos.toArray(new YoutubeVideo[DataHandler.favoritedVideos.size()]);
 
                     videoArrayAdapter.notifyDataSetChanged();
                     return false;
@@ -60,7 +60,13 @@ public class FavoritesFragment extends Fragment
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+                YoutubeVideo video = favVideos[position];
+                Util.mainActivity.musicService.PlaySong(video);
+                return;
+                /*if (video.ConvertToAudio())
+                {
+                    Util.MakeToast("successfully converted", false);
+                }*/
             }
         });
 

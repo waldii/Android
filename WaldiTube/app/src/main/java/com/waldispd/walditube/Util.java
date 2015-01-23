@@ -1,6 +1,13 @@
 package com.waldispd.walditube;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.widget.Toast;
+
+import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
+import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
+import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException;
+import com.waldispd.walditube.Enums.Quality;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
@@ -17,6 +24,7 @@ public class Util
     static String youtubeVideoInfoUrl = "https://www.youtube.com/get_video_info?video_id=";
     static String thumbnailPath = "/sdcard/walditube/thumbnails/";
     static String videoPath = "/sdcard/walditube/videos/";
+    static String audioPath = "/sdcard/walditube/audio/";
 
     public static String GetUft8EncodedString(String stringToEncode) throws UnsupportedEncodingException
     {
@@ -40,7 +48,14 @@ public class Util
         duration = duration - (hour * 3600);
         int minutes = duration / 60;
         duration = duration - (minutes * 60);
-        return String.format("%02d", hour) + ":" + String.format("%02d", minutes) + ":" + String.format("%02d", duration);
+        if (hour == 0)
+        {
+            return String.format("%02d", minutes) + ":" + String.format("%02d", duration);
+        }
+        else
+        {
+            return String.format("%02d", hour) + ":" + String.format("%02d", minutes) + ":" + String.format("%02d", duration);
+        }
     }
 
     public static String GetVideoIdFromLink(String link)
@@ -73,6 +88,36 @@ public class Util
         return videoPath + videoId + ".mp4";
     }
 
+    public static String GetAudioStoragePath(String videoId)
+    {
+        return audioPath + videoId + ".aac";
+    }
+
+    public static Bitmap GetThumbnail(String videoId)
+    {
+        return BitmapFactory.decodeFile(Util.GetThumbnailStoragePath(videoId));
+    }
+
+    public static int GetProgressPercentage(long currentDuration, long totalDuration){
+        Double percentage = (double) 0;
+
+        long currentSeconds = (int) (currentDuration / 1000);
+        long totalSeconds = (int) (totalDuration / 1000);
+
+        percentage =(((double)currentSeconds)/totalSeconds)*100;
+
+        return percentage.intValue();
+    }
+
+    public static int ProgressToTimer(int progress, int totalDuration) {
+        int currentDuration = 0;
+        totalDuration = (int) (totalDuration / 1000);
+        currentDuration = (int) ((((double)progress) / 100) * totalDuration);
+
+        // return current duration in milliseconds
+        return currentDuration * 1000;
+    }
+
     public static void DownloadAllVideoData(String videoId) throws ExecutionException, InterruptedException, UnsupportedEncodingException {
         DownloadAsyncTask asyncTask = new DownloadAsyncTask(GetYoutubeVideoInfoUrl(videoId));
         asyncTask.execute();
@@ -101,5 +146,43 @@ public class Util
         file = new File(GetVideoStoragePath(videoId));
         if (file.exists())
             file.delete();
+    }
+
+    public static void ExecuteFFmpegCommand(String cmd)
+    {
+        FFmpeg ffmpeg = FFmpeg.getInstance(mainActivity);
+        try {
+            ffmpeg.execute(cmd, new ExecuteBinaryResponseHandler() {
+
+                @Override
+                public void onStart()
+                {
+                    mainActivity.showDialog(mainActivity.CONVERT_VIDEO_AUDIO);
+                }
+
+                @Override
+                public void onProgress(String message) { }
+
+                @Override
+                public void onFailure(String message)
+                {
+                    int b = 1;
+                }
+
+                @Override
+                public void onSuccess(String message)
+                {
+
+                }
+
+                @Override
+                public void onFinish()
+                {
+                    mainActivity.dismissDialog(mainActivity.CONVERT_VIDEO_AUDIO);
+                }
+            });
+        } catch (FFmpegCommandAlreadyRunningException e) {
+            // Handle if FFmpeg is already running
+        }
     }
 }

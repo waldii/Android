@@ -15,8 +15,6 @@ import java.net.URLConnection;
  */
 public class DownloadFileAsync extends AsyncTask<String, String, String> {
 
-    public static final int DIALOG_DOWNLOAD_PROGRESS = 1;
-
     @Override
     protected String doInBackground(String... params) {
         // TODO Auto-generated method stub
@@ -60,14 +58,14 @@ public class DownloadFileAsync extends AsyncTask<String, String, String> {
     @Override
     protected void onPostExecute(String result) {
         // TODO Auto-generated method stub
-        Util.mainActivity.dismissDialog(DIALOG_DOWNLOAD_PROGRESS);
+        Util.mainActivity.dismissDialog(Util.mainActivity.DIALOG_DOWNLOAD_PROGRESS);
     }
 
     @Override
     protected void onPreExecute() {
         // TODO Auto-generated method stub
         super.onPreExecute();
-        Util.mainActivity.showDialog(DIALOG_DOWNLOAD_PROGRESS);
+        Util.mainActivity.showDialog(Util.mainActivity.DIALOG_DOWNLOAD_PROGRESS);
     }
 
     @Override

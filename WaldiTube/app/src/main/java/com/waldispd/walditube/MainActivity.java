@@ -3,8 +3,13 @@ package com.waldispd.walditube;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -17,10 +22,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import com.github.hiteshsondhi88.libffmpeg.ExecuteBinaryResponseHandler;
 import com.github.hiteshsondhi88.libffmpeg.FFmpeg;
 import com.github.hiteshsondhi88.libffmpeg.LoadBinaryResponseHandler;
-import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegCommandAlreadyRunningException;
 import com.github.hiteshsondhi88.libffmpeg.exceptions.FFmpegNotSupportedException;
 
 import java.util.ArrayList;
@@ -32,7 +35,12 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     SectionsPagerAdapter mSectionsPagerAdapter;
     ArrayList<Pair<String, Fragment>> Tabs = new ArrayList<>();
 
+    public MusicService musicService;
+    private static Intent playIntent;
+    private boolean musicBound = false;
+
     ViewPager mViewPager;
+    public PlayerFragment playFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +71,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         favFragment.setArguments(args);
         Tabs.add(new Pair<String, Fragment>("Favorites", favFragment));
 
-        PlayerFragment playFragment = new PlayerFragment();
+        playFragment = new PlayerFragment();
         Bundle args2 = new Bundle();
         args.putInt("section_number", 1);
         playFragment.setArguments(args2);
@@ -80,10 +88,45 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
             actionBar.addTab(actionBar.newTab().setText(Tabs.get(i).first).setTabListener(this));
         }
 
+        InitFFMpeg();
+    }
 
+    private final ServiceConnection musicConnection = new ServiceConnection(){
 
-        //InitFFMpeg();
-        //startDownload();
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            MusicService.MusicBinder binder = (MusicService.MusicBinder)service;
+            musicService = binder.getService();
+            musicService.initMusicPlayer(playFragment.view);
+            musicBound = true;
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+            musicBound = false;
+        }
+    };
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if(playIntent==null){
+            playIntent = new Intent(this, MusicService.class);
+            bindService(playIntent, musicConnection, Context.BIND_AUTO_CREATE);
+            startService(playIntent);
+        }
+        else
+        {
+            bindService(playIntent, musicConnection, Context.BIND_AUTO_CREATE);
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        //stopService(playIntent);
+        unbindService(musicConnection);
+        //musicService=null;
+        super.onDestroy();
     }
 
     private YoutubeInfo _currentInfoChooser = null;
@@ -136,33 +179,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         }
     }
 
-    private void ExecuteFFmpegCommand(String cmd)
-    {
-        FFmpeg ffmpeg = FFmpeg.getInstance(this);
-        try {
-            ffmpeg.execute(cmd, new ExecuteBinaryResponseHandler() {
-
-                @Override
-                public void onStart() {}
-
-                @Override
-                public void onProgress(String message) {}
-
-                @Override
-                public void onFailure(String message) {}
-
-                @Override
-                public void onSuccess(String message) {}
-
-                @Override
-                public void onFinish() {}
-            });
-        } catch (FFmpegCommandAlreadyRunningException e) {
-            // Handle if FFmpeg is already running
-        }
-    }
-
     public static final int DIALOG_DOWNLOAD_PROGRESS = 1;
+    public static final int CONVERT_VIDEO_AUDIO = 2;
     public ProgressDialog progressDialog;
 
     @Override
@@ -173,6 +191,13 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 progressDialog = new ProgressDialog(Util.mainActivity);
                 progressDialog.setMessage("Downloading file...");
                 progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+                progressDialog.setCancelable(false);
+                progressDialog.show();
+                return progressDialog;
+            case CONVERT_VIDEO_AUDIO:
+                progressDialog = new ProgressDialog(Util.mainActivity);
+                progressDialog.setMessage("Converting to audio...");
+                progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
                 progressDialog.setCancelable(false);
                 progressDialog.show();
                 return progressDialog;

@@ -58,9 +58,7 @@ public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
 
         if (new File(Util.GetThumbnailStoragePath(video.videoId)).exists())
         {
-            /*BitmapFactory.Options options = new BitmapFactory.Options();
-            options.inPreferredConfig = Bitmap.Config.ARGB_8888;*/
-            Bitmap bitmap = BitmapFactory.decodeFile(Util.GetThumbnailStoragePath(video.videoId));
+            Bitmap bitmap = Util.GetThumbnail(video.videoId);
             thumbnail.setImageBitmap(bitmap);
         }
         else
@@ -87,10 +85,9 @@ public final class VideoArrayAdapter extends ArrayAdapter<YoutubeVideo>
         @Override
         protected Void doInBackground(Void... params) {
             final Bitmap bb = DownloadThumbnail(Util.GetThumbnailImageUrl(videoId));
-            Bitmap bMap = BitmapFactory.decodeFile(Util.GetThumbnailStoragePath(videoId));
             if (favorited)
             {
-                SafeBmpToSdCard(bMap);
+                SafeBmpToSdCard(bb);
             }
             Util.mainActivity.runOnUiThread(new Runnable() {
                 @Override

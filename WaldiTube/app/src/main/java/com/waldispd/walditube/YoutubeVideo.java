@@ -40,6 +40,18 @@ public class YoutubeVideo
     public void ToFavorited() throws InterruptedException, ExecutionException, UnsupportedEncodingException {
         favorited = true;
         DataHandler.AddFavoritedVideo(this);
+    }
 
+    public boolean ConvertToAudio()
+    {
+        String cmd = String.format("-i %s -vn -strict -2 %s", Util.GetVideoStoragePath(videoId), Util.GetAudioStoragePath(videoId));
+
+        try {
+            Util.ExecuteFFmpegCommand(cmd);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return true;
     }
 }

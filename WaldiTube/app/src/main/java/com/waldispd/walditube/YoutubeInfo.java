@@ -2,8 +2,11 @@ package com.waldispd.walditube;
 
 import android.util.Pair;
 
+import com.waldispd.walditube.Enums.Quality;
+
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+
 
 /**
  * Created by Dominik on 19.01.2015.
@@ -85,11 +88,4 @@ public class YoutubeInfo
 
         return null;
     }
-}
-
-enum Quality
-{
-    medium,
-    hd720,
-    small
 }
